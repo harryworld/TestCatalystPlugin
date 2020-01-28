@@ -1,0 +1,2069 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00DA07D3E5D279D7FE127D34D0A096BE /* DynamicColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC7AF325EE7651A0C5F2C5F1B664F2B /* DynamicColor.swift */; };
+		06A991403834B10AA48B762A61DF9B58 /* UIKit+AdaptableTextContainerSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0722043ABEADD021CE88BEE725E32923 /* UIKit+AdaptableTextContainerSupport.swift */; };
+		06B3868D344E4ADA165B9EA459675886 /* DynamicColor+Lab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582639716B9B7AC385B8ADB85D0155D7 /* DynamicColor+Lab.swift */; };
+		08B3E4AE35ACBF037886605FA839643D /* PinLayout+Between.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32971625A3C610CA7441CA1FD3D21896 /* PinLayout+Between.swift */; };
+		08C12473D8BD6E3215C5F30A5C3DA02E /* Pods-AppKitGlue-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34EB252DECA5ACE5B4A9985C483A39A7 /* Pods-AppKitGlue-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08F0F76127AC9CE95D764A48BC2BC404 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F01B53FE79FEBE767264A29C5916AB3 /* CoreGraphics.framework */; };
+		0D2C546349906F019B45B1DDC9279DA6 /* MutableCopying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6149836F600A756D286AE0DBDA4A4E /* MutableCopying.swift */; };
+		0D2F139F730F1986EA97665EE0C4E3E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACE310FDA12180C53DA223BAFEA22B6 /* CoreGraphics.framework */; };
+		0E9619CA40FAF8401616E1ECB925E145 /* ContextualAlternates.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07F42DC57E9978E23E612D57135E920 /* ContextualAlternates.swift */; };
+		13F0B12A0ED41BA641793548A909AAD8 /* Pods-TestCatalyst-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC426094DEFC81E5C5E705463ABEBABB /* Pods-TestCatalyst-dummy.m */; };
+		14A5CF3FAA3A4A9C1A12A23481718783 /* PinLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73170878F34737FF1BCBDFDADB31B57 /* PinLayout.swift */; };
+		1555C980FB36CECCCB2DEE61D0976A86 /* Tracking+Adaptive.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93246CBFB4F7D02C1D5DC60B803E78F /* Tracking+Adaptive.swift */; };
+		1582075EE2A07DDC3E4EF7B8DA51C6F6 /* PinLayout+Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D17ECB428CE0F8D7C1286672CB8165 /* PinLayout+Coordinates.swift */; };
+		17346297412E96B51CBEC5039017C47B /* Layoutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88CC4CD2D41D90077FFE06BFC52D952 /* Layoutable.swift */; };
+		17D3CE257C613CF7F0CB6345B860A795 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C167C2890A1097EEA71929629DF1BCE /* Cocoa.framework */; };
+		18FB0A17EC37BA8929D06F3D57702AF4 /* Percent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C257C07FEA6042EBB95CC136FDD59C83 /* Percent.swift */; };
+		1935F71025F7508D6F71652788EDBD83 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E664F4505FECFA843EBF30AE35DC87 /* AppKit.framework */; };
+		1A4DD49395F5068C3BA02F9CF5342159 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1500348972CFFD9F9B330892DF46C09 /* Platform.swift */; };
+		1C67AA4D091CD4428D14F7A09C207CE7 /* UIView+PinLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F1AC1A7F5EDD44F4273A64A8C023B2 /* UIView+PinLayout.swift */; };
+		1D0EBFE95049EBA0FFFD6C0AF48BCD95 /* PinLayoutObjCImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FEC264B038C3BE3349280449FE32A0 /* PinLayoutObjCImpl.swift */; };
+		1EDE3555FD58D4B21EAED03446096560 /* NamedStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C887685ED4427D1AAC4D6B0FD78692 /* NamedStyles.swift */; };
+		21377ACAAA742C27BE6377E2F6C98AE4 /* Percent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C257C07FEA6042EBB95CC136FDD59C83 /* Percent.swift */; };
+		215D95D191FD53DF1EE5C48061502154 /* DynamicColor+Lab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582639716B9B7AC385B8ADB85D0155D7 /* DynamicColor+Lab.swift */; };
+		222C31BA7FCFF3A0B7E7BFC2EA473551 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F090B8E569C34C1F689CF91544CF7B2F /* Foundation.framework */; };
+		22C31368AD0084FF994817FB98692DB2 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1500348972CFFD9F9B330892DF46C09 /* Platform.swift */; };
+		2740F0BD7D130DBAD2A0167A9F95036A /* Pods-TestCatalyst-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADDB6CF2BEC6DA4A8A98BD11F9365B28 /* Pods-TestCatalyst-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27CC4C921C96E7232B950C1E26EC4737 /* Types+Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8031FE62BD9295B9BD9187D33CA6DD8D /* Types+Description.swift */; };
+		295411C1AEEB4F5B9F293E9DEE3DA391 /* UIView+PinLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F1AC1A7F5EDD44F4273A64A8C023B2 /* UIView+PinLayout.swift */; };
+		299EB0B203170461AFD913F5024D9B54 /* Layoutable+PinLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13AC71BB54F67137B1B9C09B0AE9413 /* Layoutable+PinLayout.swift */; };
+		2B0966AFB1F9807AE94E023662FAC3A2 /* DynamicColor-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1BE206E76D9663F14699AFBC81ADB1 /* DynamicColor-iOS-dummy.m */; };
+		2BB28928E83EEB7B3EE7A783789685C5 /* StylisticAlternates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D6B36FADE1B4954CFD01AEDFFDB014 /* StylisticAlternates.swift */; };
+		2E32372CDCAF0D2785CA5DEFDD876E92 /* Types+Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8031FE62BD9295B9BD9187D33CA6DD8D /* Types+Description.swift */; };
+		3068A118882E2FF59847FCC9B3123506 /* TypesImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424F0977B42128EAE232A5DC3F96567C /* TypesImpl.swift */; };
+		3297536A8B88C002B32C4259F90F12B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F090B8E569C34C1F689CF91544CF7B2F /* Foundation.framework */; };
+		33004C9D255B3FF41B2B3D3F16DA1F6F /* BonMot-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8802BC2F864A772C087C96265E6FE394 /* BonMot-macOS-dummy.m */; };
+		342528B41F669A5FAF019EAED74BCDD7 /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7CC1C21B3976B6125DA5D6C593E195 /* Pin.swift */; };
+		3558CED4E338FE8CF8A716B4577BD019 /* XMLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637EEB6E899B91343B315AA42DB0FE54 /* XMLBuilder.swift */; };
+		359873D3BE4FBA8613EEC83EF97E8F22 /* CALayer+PinLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D62FD0D0057C3C9C5E30BDDCBF84B7 /* CALayer+PinLayout.swift */; };
+		37D290DFC9978C93CA63E3A58490B310 /* Filters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A87AF4ED8D927C893FC7C09CD436DD /* Filters.swift */; };
+		37F195C15CD0147EB1173475BA14C000 /* Image+Tinting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F00E208472B02C41AD7FEB005AFF1A /* Image+Tinting.swift */; };
+		3BEEC08D9B1A8F5FDB521ADD402C0031 /* PinLayout-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A17BAFE5DE99C9B578CE9CA74F3577 /* PinLayout-macOS-dummy.m */; };
+		3C97BF5337EA60FA9464312EEF22E786 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E664F4505FECFA843EBF30AE35DC87 /* AppKit.framework */; };
+		3DE4C44207255A43F3C45E65E9E1BD85 /* PinSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3D2A6F17AF9BA3B72D09E5B7343DBC /* PinSafeArea.swift */; };
+		3E4FDF5286568D667303D15F13546904 /* SizeCalculable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB24912EDFD8274C36941A98E9E71FDC /* SizeCalculable.swift */; };
+		41FA5028EB6A4818C854374FC7C67A04 /* StringStyle+Part.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57AD47CB0AAEDAB627806EE722B5B08 /* StringStyle+Part.swift */; };
+		442D05A08610ED065BC64AC1634D53AF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C2658B852F3B9984B5F1C4DF2CFD3A /* Utils.swift */; };
+		44E8EE090383600DB147411EB1D41763 /* DynamicColor+XYZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384B826EC7D8BC1F8B1166425AA1F0E1 /* DynamicColor+XYZ.swift */; };
+		48855C265C51ACB2E9AE3A7FD431FB9D /* NamedStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C887685ED4427D1AAC4D6B0FD78692 /* NamedStyles.swift */; };
+		4C09A4DEEB0AD3EBEAFBF3F14BAF3F18 /* Emphasis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CFE46F5DF27EE7492192EFAD58D997 /* Emphasis.swift */; };
+		4D468BDA761D174B61AA2F1CE7FF0077 /* NSAttributedString+Adaptive.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EAAE3A475E0706240DFBCB49BCC915 /* NSAttributedString+Adaptive.swift */; };
+		4DE10D7EAA4A567E01F1FF12024781FF /* CALayer+PinLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D62FD0D0057C3C9C5E30BDDCBF84B7 /* CALayer+PinLayout.swift */; };
+		4FD8E04F34406B21235DAE5319D3CEEE /* Ligatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D418E98509C6C3439F8AF129C2D040 /* Ligatures.swift */; };
+		510BB9287C609EA13774AC3DF538535D /* HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270CDBDE6EBECE94D680DBE73B79A017 /* HSL.swift */; };
+		5266DEF7EBD491548A070DE041497558 /* DynamicColor+RGBA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2048F53478CA200ED07B9B3190DB97E9 /* DynamicColor+RGBA.swift */; };
+		52CF893D1CFC6F74BEF4CA7A6129F687 /* DynamicColor+RGBA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2048F53478CA200ED07B9B3190DB97E9 /* DynamicColor+RGBA.swift */; };
+		52EDA9B5C99A5020F13FFF1759B74DFD /* ContrastDisplayContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66559A798440E480D4FBE33023D806BF /* ContrastDisplayContext.swift */; };
+		5566861EE14801BAA42B373299E58A87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F090B8E569C34C1F689CF91544CF7B2F /* Foundation.framework */; };
+		5AF04F5F4AE0AC48C086BB94FDE9FAE9 /* PinLayout+Warning.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB13E4B83514DD8040FBC0087781427F /* PinLayout+Warning.swift */; };
+		5E3E68CD85CFD6EE9483DC6427EB5D44 /* PinLayout+Layouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E757D2251E3D221170ACDD30A1D981D4 /* PinLayout+Layouting.swift */; };
+		5EBB065AC55A5083382A1EAC3C7BC4E1 /* Layoutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88CC4CD2D41D90077FFE06BFC52D952 /* Layoutable.swift */; };
+		60B21417DDDD213992D09497CD8CD5B0 /* HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270CDBDE6EBECE94D680DBE73B79A017 /* HSL.swift */; };
+		6122719C38E34A883EFF656C8C727BD3 /* BonMot-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8636B7AB1FFDF25EFDEBC45E75EDE3E9 /* BonMot-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6128C06D5FC9ED0A3A156BB58CE32AAC /* StringStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362838EEEE188F164A9CD679685E0AFE /* StringStyle.swift */; };
+		617992CCB0C223330E7BBAF6B6744869 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728FE54A085F335A0088702460656651 /* UIKit.framework */; };
+		62FCE625733EEC20746C75255FEA3A7B /* Tracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD51FF909502B28D3899D36B2A8842C2 /* Tracking.swift */; };
+		642994FB30DDA6EC11E909C7804E39AB /* DynamicColor+Deriving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EA4AFA25DC1DAC0EC5D5F862869C9C /* DynamicColor+Deriving.swift */; };
+		643F2C959BDE1BF77AA0D85660E11B78 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F56B6A30A95D0EF30CF8714FEA0A105 /* Types.swift */; };
+		6508E77B06B7A3DDE16A0FD49D47714E /* PinLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73170878F34737FF1BCBDFDADB31B57 /* PinLayout.swift */; };
+		6534BE2997205CDF770E9BDC4483A7B7 /* FontFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C2CF5E5A6CD586C7942471AC733F0F /* FontFeatures.swift */; };
+		68A2D2D0D17495245B42CA69B58A933F /* TextAlignmentConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32396DF72C71044DA23581805B44D2E /* TextAlignmentConstraint.swift */; };
+		6907709D950A7F75D415E30E2490A7FB /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF46FAC5B9955F2A6E3001B6FB1D9B4 /* Tab.swift */; };
+		69E0D163B2E754C4226804799B41F956 /* PinLayout+Relative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE8EA91C64150626452CEDFE7A19D1C /* PinLayout+Relative.swift */; };
+		6B706DCC2C7D760ED7EBA4020EB790C1 /* StyleableUIElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE1931A3D417247059D9166847F985 /* StyleableUIElement.swift */; };
+		6D1ADF445F3ADF4FFD83F47F261894D6 /* Compatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D23E15742FD2A65DC10E5B4C8AB71BF /* Compatibility.swift */; };
+		6DD90827BF8E6D69779F74F31BEF5131 /* Composable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EF2F9CF652657868BACB21BB1FFD5F /* Composable.swift */; };
+		737AE1C60F190DD7DFE58F079CA3870E /* DynamicColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC7AF325EE7651A0C5F2C5F1B664F2B /* DynamicColor.swift */; };
+		73F9FF8BE879CD071DD6965405B2B3D0 /* PinLayout+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6F7A339D856DF818845DAF8940064 /* PinLayout+Size.swift */; };
+		741BDA355887B158BEFC3E4B5163CE7C /* BonMot-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95380AF2E2861B6B130613344E136DAC /* BonMot-iOS-dummy.m */; };
+		7459AAF626D48533B6696E8040482077 /* Special.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3BD67D29F4653358402E89F0B06AC3 /* Special.swift */; };
+		745DB33CD1377FBFD67DE8592021F822 /* AdaptiveStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E231944186CAEFCC852601D7B33BBF /* AdaptiveStyle.swift */; };
+		77866DCF984355E450235089714470A7 /* SizeCalculable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB24912EDFD8274C36941A98E9E71FDC /* SizeCalculable.swift */; };
+		7BEDF964382DBDB06B4C2262B2F18711 /* Layoutable+PinLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13AC71BB54F67137B1B9C09B0AE9413 /* Layoutable+PinLayout.swift */; };
+		7D11514DD0AB8DF80D8D47AD0CE24DC9 /* DynamicGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BD1632C33636F94743F2446770013B /* DynamicGradient.swift */; };
+		7F29BECF738ECD6E4A25DA83AD0CB4D8 /* NSAttributedString+BonMot.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC98B6725B91ACE4AC4989EB7EE846F /* NSAttributedString+BonMot.swift */; };
+		7FABCAF4D763EE035DF694F6C53CCA84 /* NSAttributedString+BonMot.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC98B6725B91ACE4AC4989EB7EE846F /* NSAttributedString+BonMot.swift */; };
+		811B202A06306242FD62D0D7C6F6EED1 /* StringStyle+Part.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57AD47CB0AAEDAB627806EE722B5B08 /* StringStyle+Part.swift */; };
+		813552C53D1681ED719BA3F72B6C005E /* EmbeddedTransformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699225597158ED4ECDE67A78F5C0A789 /* EmbeddedTransformation.swift */; };
+		8363C6519ACEA19E113A45767BB9AB56 /* StringStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362838EEEE188F164A9CD679685E0AFE /* StringStyle.swift */; };
+		83E0E4B0B27A5B7EF961E20CA6277F69 /* PinLayout+WrapContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F22AEAF8EEDD47E613499A7AF579D7 /* PinLayout+WrapContent.swift */; };
+		842D64AA3FA9D21B82293EACD626E153 /* PinLayout+Layouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E757D2251E3D221170ACDD30A1D981D4 /* PinLayout+Layouting.swift */; };
+		84CBB04AA02BCC8A29646EADB50AD6B7 /* DynamicColor+Deriving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EA4AFA25DC1DAC0EC5D5F862869C9C /* DynamicColor+Deriving.swift */; };
+		853360B263043E3A3A39E213D8DF7154 /* Emphasis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CFE46F5DF27EE7492192EFAD58D997 /* Emphasis.swift */; };
+		869860F91B09563554A832385AA60EF7 /* NSView+PinLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B9D15A0D27972841C5D02213AEB3A5 /* NSView+PinLayout.swift */; };
+		880E8864D7B5367162CB19EBBABCBDC7 /* Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D1CFC8D1A132FC103895D8D8CEFF7 /* Transform.swift */; };
+		8936E7660B28C743CCE3AFD7A5CA233C /* ContextualAlternates.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07F42DC57E9978E23E612D57135E920 /* ContextualAlternates.swift */; };
+		8C45E9B438233540DCBBA68AFDE37AFF /* StylisticAlternates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D6B36FADE1B4954CFD01AEDFFDB014 /* StylisticAlternates.swift */; };
+		8C5934CB1CF98589F835C0906FCFF332 /* DynamicColor+Mixing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BC40CF484AC8ED06F7F349EFC8FC16 /* DynamicColor+Mixing.swift */; };
+		9180F1D35DBBB03FA0507E2D437B11B2 /* Tab+Adaptive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800D7B760AAD7B7ED8C8D7EDCBADBCA0 /* Tab+Adaptive.swift */; };
+		94FDEF67995EE7E8BAC545FDA9A7B689 /* DynamicColor+HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E691EB24277A2854E12AD3F06C9F7 /* DynamicColor+HSL.swift */; };
+		95470D5D7BD4B250EB45EA20DE9D14F0 /* PinLayout+Relative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE8EA91C64150626452CEDFE7A19D1C /* PinLayout+Relative.swift */; };
+		959771E2196061E2F4B7A506F39A8DF9 /* DynamicColorSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471F3C7ECEC7BAF1DD54A0336D9AC3E0 /* DynamicColorSpace.swift */; };
+		95D947D9B0A6E1C87F5D2CB81A9CA33E /* AttributedStringTransformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80376646DD3619904E79BC766BE74155 /* AttributedStringTransformation.swift */; };
+		96F982A57D16EA637D91D0B176980861 /* PinLayoutObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6CF3A11C008E69FC7A4A8CD45CF790 /* PinLayoutObjC.swift */; };
+		973A58626E217E91C6B6C692CFC40B0B /* UIKit+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B046307C2E7A4B2C154ED1C56018DF5 /* UIKit+Helpers.swift */; };
+		99640DD179A402D264BBBA42F962B70A /* Compatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D23E15742FD2A65DC10E5B4C8AB71BF /* Compatibility.swift */; };
+		9B0EDB198A21C659D58EC7E8B4AFD6E6 /* PEdgeInsets+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC1772D5C8B1F70A0DDFA407884BA8E /* PEdgeInsets+Operators.swift */; };
+		9CFF2A9E4EFDF924AA7DEA0D45391084 /* DynamicColor-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 679A04BE372D888A7E0E6247137DDFEC /* DynamicColor-macOS-dummy.m */; };
+		9DD25AF94FF690BAB6F9DD11F360A4C1 /* AccessibilityHeadingLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9301F529DCF398A175A43CFB4A3B877 /* AccessibilityHeadingLevel.swift */; };
+		9E7C318A6CEAB5E9D76509C2050CA57A /* Pods-AppKitGlue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD749E85C9761ACCA2447132D93C892 /* Pods-AppKitGlue-dummy.m */; };
+		9F450B6A0EE0C0AA56A71B1316E55C75 /* DynamicColor+HSB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF4F3A9E54B57B4C5FDD3AC9EE9ABF /* DynamicColor+HSB.swift */; };
+		9FE900C1D149F77214C70E2137531A4A /* AdaptiveStyleTransformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B2F8417ECCC66948527BEF6D17843 /* AdaptiveStyleTransformation.swift */; };
+		A55E71E3738AC765CA149B5BB73E8B3B /* Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D1CFC8D1A132FC103895D8D8CEFF7 /* Transform.swift */; };
+		A624591E3F61258761C933F5A57FC3CA /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7CC1C21B3976B6125DA5D6C593E195 /* Pin.swift */; };
+		A6A9B6169AD3704BB14CA7D1F27350AE /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED79A686033F299D72E027E230F5EC /* Array.swift */; };
+		AA00E9C671E36ABC781CC1237DE228ED /* PinLayoutObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6CF3A11C008E69FC7A4A8CD45CF790 /* PinLayoutObjC.swift */; };
+		AA0862830AD0B319B8075B43D41D9D6F /* XMLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637EEB6E899B91343B315AA42DB0FE54 /* XMLBuilder.swift */; };
+		AAA20FC494295FFE1FD3C6468726717C /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB6BB7B6B564DD787AAE910EE394C18 /* Coordinates.swift */; };
+		AE844B878BD9B85C8DD2C0445244D718 /* Tracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD51FF909502B28D3899D36B2A8842C2 /* Tracking.swift */; };
+		B09349D95AC294A63F10188054ACF70E /* Image+Tinting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F00E208472B02C41AD7FEB005AFF1A /* Image+Tinting.swift */; };
+		B50DF4EB2B372D7DAAAAF7BE866BC885 /* DynamicColor-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F329E81B32B6A33623BA26FB95A97E34 /* DynamicColor-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B59379D8BEF25278082160510EE38747 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF46FAC5B9955F2A6E3001B6FB1D9B4 /* Tab.swift */; };
+		B596AAB06E6EF981DF8395C9B0222AE4 /* PinLayout+Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D17ECB428CE0F8D7C1286672CB8165 /* PinLayout+Coordinates.swift */; };
+		B853B014DE2A55A7F564CEA97BF70289 /* DynamicColor+Mixing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BC40CF484AC8ED06F7F349EFC8FC16 /* DynamicColor+Mixing.swift */; };
+		BA5279E597B23BAD187198CDC2E96DFF /* AdaptableTextContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF569CCF4362CF6B632E64A4922A1A4A /* AdaptableTextContainer.swift */; };
+		BBD3154BB43AF389325A545FACCDDF74 /* DynamicColor+HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E691EB24277A2854E12AD3F06C9F7 /* DynamicColor+HSL.swift */; };
+		BCCFBD216FC133F71BD03610282E6F54 /* FontFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C2CF5E5A6CD586C7942471AC733F0F /* FontFeatures.swift */; };
+		BFBEE15052F7C5A7F8F00F151543D17D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F090B8E569C34C1F689CF91544CF7B2F /* Foundation.framework */; };
+		C083DAAE621A8F87C892B92ABDD5FA66 /* DynamicGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BD1632C33636F94743F2446770013B /* DynamicGradient.swift */; };
+		C0EAA6E85713A0D9448129FD68F4EDBC /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F56B6A30A95D0EF30CF8714FEA0A105 /* Types.swift */; };
+		C37BC7E6BB41E329C101D40B3DA46C82 /* PinLayout-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1418BD14D55354ED5F05E9CEF69D44E4 /* PinLayout-iOS-dummy.m */; };
+		C3F93A46C55CA6097F5EEB12CEA0E45C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4812E2293D80934C02987AEC7CC6AB6B /* Foundation.framework */; };
+		C41350A69AA1E7BA85E7229616574BA1 /* MutableCopying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6149836F600A756D286AE0DBDA4A4E /* MutableCopying.swift */; };
+		C57D7DA0B47A58D24679B41162A8BBA6 /* PinLayout+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6F7A339D856DF818845DAF8940064 /* PinLayout+Size.swift */; };
+		CABCEC8B5CE302D14B2D8314DC174707 /* FontInspector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA171C57737791C848458DED7115045 /* FontInspector.swift */; };
+		CDBBCF58478DC114A114F7649BA5203B /* FontInspector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA171C57737791C848458DED7115045 /* FontInspector.swift */; };
+		CE5652382B0D30297D5A15FB05F9899B /* PinLayout-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61444E585412B15D4DD0C5C589938CAB /* PinLayout-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2829E1EC4479830AA219FF7B6120EC5 /* BonMot-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F4BA257736D0C805B7086442EF0820A /* BonMot-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2F751C27AC6BBC2D4EB6078426C9AEB /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C2658B852F3B9984B5F1C4DF2CFD3A /* Utils.swift */; };
+		D40FB9E77E4127C1B5F34053EDF84AA1 /* DynamicColor+HSB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF4F3A9E54B57B4C5FDD3AC9EE9ABF /* DynamicColor+HSB.swift */; };
+		D7198943DA49F778FA1B21E3A44772CB /* PinLayout-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDBDD0DF7518F1604B8C7C9C7910B6F /* PinLayout-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8163517802CBF4CEA59C495BD2438AB /* TypesImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424F0977B42128EAE232A5DC3F96567C /* TypesImpl.swift */; };
+		D82898EC3EAB39FB519DE2E2498C799E /* AccessibilityHeadingLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9301F529DCF398A175A43CFB4A3B877 /* AccessibilityHeadingLevel.swift */; };
+		D97FBABB619C9189F0B7DFC09AF6C969 /* PinLayoutObjCImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FEC264B038C3BE3349280449FE32A0 /* PinLayoutObjCImpl.swift */; };
+		DE455821A7E38DACBEE57C5240E19328 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED79A686033F299D72E027E230F5EC /* Array.swift */; };
+		DECC422FA9AF41268A9B1DB93BE688C7 /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB6BB7B6B564DD787AAE910EE394C18 /* Coordinates.swift */; };
+		E4F67F6A656BFC75190B3BF904523C3C /* DynamicColorSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471F3C7ECEC7BAF1DD54A0336D9AC3E0 /* DynamicColorSpace.swift */; };
+		E88B74E1A83E10998E9EE3ABC42B121F /* NSView+PinLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B9D15A0D27972841C5D02213AEB3A5 /* NSView+PinLayout.swift */; };
+		E9436D7357E36646929B4BA1CA232221 /* PEdgeInsets+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC1772D5C8B1F70A0DDFA407884BA8E /* PEdgeInsets+Operators.swift */; };
+		EA076843CB1EC91DBEAF70A817FCE537 /* Special.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3BD67D29F4653358402E89F0B06AC3 /* Special.swift */; };
+		EBE2AB2AF9656AB3FDA0C4AC39227211 /* DynamicColor-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B59E51E05C422BA6024F680E26CAA10A /* DynamicColor-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEBEBA671B71BEB39CF0A06255CBF2CA /* Filters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A87AF4ED8D927C893FC7C09CD436DD /* Filters.swift */; };
+		EEF0B11D3C13BACCEF819683D3CB8F69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728FE54A085F335A0088702460656651 /* UIKit.framework */; };
+		F276F400EB08E05DD36203D339F37BE3 /* ContrastDisplayContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66559A798440E480D4FBE33023D806BF /* ContrastDisplayContext.swift */; };
+		F29B8FF7275952B991409068DE81E516 /* PinSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3D2A6F17AF9BA3B72D09E5B7343DBC /* PinSafeArea.swift */; };
+		F30A81428B153129D1D9B2B6E329DC5B /* Ligatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D418E98509C6C3439F8AF129C2D040 /* Ligatures.swift */; };
+		F5E7D2B86837EB191FEC767F4B62809A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C167C2890A1097EEA71929629DF1BCE /* Cocoa.framework */; };
+		F66BD8B23CA9CAA767FCF1FA3BBA49F7 /* PinLayout+Between.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32971625A3C610CA7441CA1FD3D21896 /* PinLayout+Between.swift */; };
+		F8496A9B23B13E933F492FC633776BD4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C167C2890A1097EEA71929629DF1BCE /* Cocoa.framework */; };
+		FBB363429735E441B586626A9138A27E /* PinLayout+Warning.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB13E4B83514DD8040FBC0087781427F /* PinLayout+Warning.swift */; };
+		FC368D52C490A794440BDA4CA6F80BD4 /* DynamicColor+XYZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384B826EC7D8BC1F8B1166425AA1F0E1 /* DynamicColor+XYZ.swift */; };
+		FC74C4618A2375BB2F2B28C40915B59A /* PinLayout+WrapContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F22AEAF8EEDD47E613499A7AF579D7 /* PinLayout+WrapContent.swift */; };
+		FCB99A7BD381BC8869B18E24B37563F6 /* Composable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EF2F9CF652657868BACB21BB1FFD5F /* Composable.swift */; };
+		FEBBC1EE73E48B8D98B7BA92C6185EB5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C167C2890A1097EEA71929629DF1BCE /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13C025CF3C44D800FCB1E28E220CC321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12E394D5106C60B210EAD4E7E555F057;
+			remoteInfo = "BonMot-macOS";
+		};
+		1EF092FCE3048DE0A6F16D13261EB527 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3954717285B1C43FF47D20423DA003B;
+			remoteInfo = "PinLayout-macOS";
+		};
+		40AD4D1FE091B368B93A49CD12BA29D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56D9443624F9A5CEE02BAA3461C09228;
+			remoteInfo = "PinLayout-iOS";
+		};
+		722C832666E35BE6BD2AECD13ED2BE4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9FFC76ECB35BEE5FB4852E53CB138C5;
+			remoteInfo = "DynamicColor-macOS";
+		};
+		9C52E2FD3058A3A35B2738C5B83223F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A733FC3F42F37BF321DC812D35C66C19;
+			remoteInfo = "DynamicColor-iOS";
+		};
+		A0E2AFF505B010ACDC5B61D80C97ABFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DBAC26EE50D807147CCEDC8AFB29A18;
+			remoteInfo = "BonMot-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00C2658B852F3B9984B5F1C4DF2CFD3A /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/Utils.swift; sourceTree = "<group>"; };
+		06D62FD0D0057C3C9C5E30BDDCBF84B7 /* CALayer+PinLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+PinLayout.swift"; path = "Sources/Extensions/CALayer+PinLayout.swift"; sourceTree = "<group>"; };
+		0722043ABEADD021CE88BEE725E32923 /* UIKit+AdaptableTextContainerSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+AdaptableTextContainerSupport.swift"; path = "Sources/UIKit/UIKit+AdaptableTextContainerSupport.swift"; sourceTree = "<group>"; };
+		0973E97B20CF80012AD207E18A2009F6 /* Pods_AppKitGlue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AppKitGlue.framework; path = "Pods-AppKitGlue.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BC1772D5C8B1F70A0DDFA407884BA8E /* PEdgeInsets+Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PEdgeInsets+Operators.swift"; path = "Sources/Extensions/PEdgeInsets+Operators.swift"; sourceTree = "<group>"; };
+		0EF46FAC5B9955F2A6E3001B6FB1D9B4 /* Tab.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tab.swift; path = Sources/Tab.swift; sourceTree = "<group>"; };
+		0F3D2A6F17AF9BA3B72D09E5B7343DBC /* PinSafeArea.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinSafeArea.swift; path = Sources/Impl/PinSafeArea.swift; sourceTree = "<group>"; };
+		1316DACD2EAFDA175EADF17F938B2906 /* Pods-TestCatalyst-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestCatalyst-acknowledgements.plist"; sourceTree = "<group>"; };
+		1361092B0C7E9F2D8697F06B8DEFFF84 /* DynamicColor-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DynamicColor-iOS-Info.plist"; sourceTree = "<group>"; };
+		1418BD14D55354ED5F05E9CEF69D44E4 /* PinLayout-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PinLayout-iOS-dummy.m"; sourceTree = "<group>"; };
+		1431303C19A4D7FD582081FAADE2D7B1 /* Pods-TestCatalyst-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestCatalyst-Info.plist"; sourceTree = "<group>"; };
+		14BBE5274181874A9FBDEA5F53D1B603 /* BonMot-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BonMot-macOS-prefix.pch"; path = "../BonMot-macOS/BonMot-macOS-prefix.pch"; sourceTree = "<group>"; };
+		1525762BF0C15C02C398C7E8FC9A9D4B /* DynamicColor-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "DynamicColor-macOS.modulemap"; path = "../DynamicColor-macOS/DynamicColor-macOS.modulemap"; sourceTree = "<group>"; };
+		176B2F8417ECCC66948527BEF6D17843 /* AdaptiveStyleTransformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdaptiveStyleTransformation.swift; path = Sources/UIKit/AdaptiveStyleTransformation.swift; sourceTree = "<group>"; };
+		1C1BE206E76D9663F14699AFBC81ADB1 /* DynamicColor-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DynamicColor-iOS-dummy.m"; sourceTree = "<group>"; };
+		1CA171C57737791C848458DED7115045 /* FontInspector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontInspector.swift; path = Sources/FontInspector.swift; sourceTree = "<group>"; };
+		1D23E15742FD2A65DC10E5B4C8AB71BF /* Compatibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compatibility.swift; path = Sources/Compatibility.swift; sourceTree = "<group>"; };
+		1E939EFD5ED170C6B7906F7C09079A41 /* PinLayout-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinLayout-iOS-prefix.pch"; sourceTree = "<group>"; };
+		2048F53478CA200ED07B9B3190DB97E9 /* DynamicColor+RGBA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DynamicColor+RGBA.swift"; path = "Sources/DynamicColor+RGBA.swift"; sourceTree = "<group>"; };
+		20D418E98509C6C3439F8AF129C2D040 /* Ligatures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ligatures.swift; path = Sources/Ligatures.swift; sourceTree = "<group>"; };
+		21BD1632C33636F94743F2446770013B /* DynamicGradient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicGradient.swift; path = Sources/DynamicGradient.swift; sourceTree = "<group>"; };
+		21C2CF5E5A6CD586C7942471AC733F0F /* FontFeatures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontFeatures.swift; path = Sources/FontFeatures.swift; sourceTree = "<group>"; };
+		24CFE46F5DF27EE7492192EFAD58D997 /* Emphasis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Emphasis.swift; path = Sources/Emphasis.swift; sourceTree = "<group>"; };
+		270CDBDE6EBECE94D680DBE73B79A017 /* HSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HSL.swift; path = Sources/HSL.swift; sourceTree = "<group>"; };
+		28BC40CF484AC8ED06F7F349EFC8FC16 /* DynamicColor+Mixing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DynamicColor+Mixing.swift"; path = "Sources/DynamicColor+Mixing.swift"; sourceTree = "<group>"; };
+		2CB883D54F3928DA50D7F148E81BD357 /* PinLayout-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PinLayout-iOS.xcconfig"; sourceTree = "<group>"; };
+		2F56B6A30A95D0EF30CF8714FEA0A105 /* Types.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Types.swift; path = Sources/Types.swift; sourceTree = "<group>"; };
+		321CF37802C72CEDA21C3F8E92597A64 /* DynamicColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DynamicColor.framework; path = "DynamicColor-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32322531C958CFC4A0CE3B1A8A3E3148 /* Pods-TestCatalyst.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestCatalyst.debug.xcconfig"; sourceTree = "<group>"; };
+		32971625A3C610CA7441CA1FD3D21896 /* PinLayout+Between.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PinLayout+Between.swift"; path = "Sources/PinLayout+Between.swift"; sourceTree = "<group>"; };
+		34370B7FE8860830063FAABF968D8684 /* DynamicColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DynamicColor.framework; path = "DynamicColor-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34EB252DECA5ACE5B4A9985C483A39A7 /* Pods-AppKitGlue-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppKitGlue-umbrella.h"; sourceTree = "<group>"; };
+		35EF2F9CF652657868BACB21BB1FFD5F /* Composable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Composable.swift; path = Sources/Composable.swift; sourceTree = "<group>"; };
+		35F1AC1A7F5EDD44F4273A64A8C023B2 /* UIView+PinLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+PinLayout.swift"; path = "Sources/Extensions/UIView+PinLayout.swift"; sourceTree = "<group>"; };
+		362838EEEE188F164A9CD679685E0AFE /* StringStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringStyle.swift; path = Sources/StringStyle.swift; sourceTree = "<group>"; };
+		384B826EC7D8BC1F8B1166425AA1F0E1 /* DynamicColor+XYZ.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DynamicColor+XYZ.swift"; path = "Sources/DynamicColor+XYZ.swift"; sourceTree = "<group>"; };
+		38AE1931A3D417247059D9166847F985 /* StyleableUIElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StyleableUIElement.swift; path = Sources/UIKit/StyleableUIElement.swift; sourceTree = "<group>"; };
+		3FED79A686033F299D72E027E230F5EC /* Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Array.swift; path = Sources/Array.swift; sourceTree = "<group>"; };
+		424F0977B42128EAE232A5DC3F96567C /* TypesImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TypesImpl.swift; path = Sources/Impl/TypesImpl.swift; sourceTree = "<group>"; };
+		46DDCE55A760C9F408CA85EBB2E8A54A /* BonMot-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "BonMot-iOS.xcconfig"; sourceTree = "<group>"; };
+		471F3C7ECEC7BAF1DD54A0336D9AC3E0 /* DynamicColorSpace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicColorSpace.swift; path = Sources/DynamicColorSpace.swift; sourceTree = "<group>"; };
+		4812E2293D80934C02987AEC7CC6AB6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		48275147FDE3D2B795DE6855D1F879B9 /* PinLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PinLayout.framework; path = "PinLayout-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB6BB7B6B564DD787AAE910EE394C18 /* Coordinates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coordinates.swift; path = Sources/Impl/Coordinates.swift; sourceTree = "<group>"; };
+		4DC7AF325EE7651A0C5F2C5F1B664F2B /* DynamicColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicColor.swift; path = Sources/DynamicColor.swift; sourceTree = "<group>"; };
+		4E3D1CFC8D1A132FC103895D8D8CEFF7 /* Transform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transform.swift; path = Sources/Transform.swift; sourceTree = "<group>"; };
+		50D6B36FADE1B4954CFD01AEDFFDB014 /* StylisticAlternates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StylisticAlternates.swift; path = Sources/StylisticAlternates.swift; sourceTree = "<group>"; };
+		511DAA542B80F1242D8828F7B6A563F8 /* BonMot-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "BonMot-iOS.modulemap"; sourceTree = "<group>"; };
+		53E664F4505FECFA843EBF30AE35DC87 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
+		582639716B9B7AC385B8ADB85D0155D7 /* DynamicColor+Lab.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DynamicColor+Lab.swift"; path = "Sources/DynamicColor+Lab.swift"; sourceTree = "<group>"; };
+		58E231944186CAEFCC852601D7B33BBF /* AdaptiveStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdaptiveStyle.swift; path = Sources/UIKit/AdaptiveStyle.swift; sourceTree = "<group>"; };
+		5F01B53FE79FEBE767264A29C5916AB3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		5F3CE34C7AFBAA0CD1934E2C7A1A567E /* Pods-TestCatalyst.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestCatalyst.release.xcconfig"; sourceTree = "<group>"; };
+		61444E585412B15D4DD0C5C589938CAB /* PinLayout-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PinLayout-macOS-umbrella.h"; path = "../PinLayout-macOS/PinLayout-macOS-umbrella.h"; sourceTree = "<group>"; };
+		637EEB6E899B91343B315AA42DB0FE54 /* XMLBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XMLBuilder.swift; path = Sources/XMLBuilder.swift; sourceTree = "<group>"; };
+		66559A798440E480D4FBE33023D806BF /* ContrastDisplayContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContrastDisplayContext.swift; path = Sources/ContrastDisplayContext.swift; sourceTree = "<group>"; };
+		679A04BE372D888A7E0E6247137DDFEC /* DynamicColor-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DynamicColor-macOS-dummy.m"; path = "../DynamicColor-macOS/DynamicColor-macOS-dummy.m"; sourceTree = "<group>"; };
+		699225597158ED4ECDE67A78F5C0A789 /* EmbeddedTransformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmbeddedTransformation.swift; path = Sources/UIKit/EmbeddedTransformation.swift; sourceTree = "<group>"; };
+		69EA4AFA25DC1DAC0EC5D5F862869C9C /* DynamicColor+Deriving.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DynamicColor+Deriving.swift"; path = "Sources/DynamicColor+Deriving.swift"; sourceTree = "<group>"; };
+		6EE8EA91C64150626452CEDFE7A19D1C /* PinLayout+Relative.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PinLayout+Relative.swift"; path = "Sources/PinLayout+Relative.swift"; sourceTree = "<group>"; };
+		6F4BA257736D0C805B7086442EF0820A /* BonMot-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BonMot-macOS-umbrella.h"; path = "../BonMot-macOS/BonMot-macOS-umbrella.h"; sourceTree = "<group>"; };
+		704C02BC2ED76CDF08C6E3DF6F482EFA /* DynamicColor-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "DynamicColor-iOS.modulemap"; sourceTree = "<group>"; };
+		7287945D3C6D918FBC784E44DAA05A2A /* BonMot-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "BonMot-macOS-Info.plist"; path = "../BonMot-macOS/BonMot-macOS-Info.plist"; sourceTree = "<group>"; };
+		728FE54A085F335A0088702460656651 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		77E4CE4A5641DEDFAB2291F32DEF0F06 /* Pods-AppKitGlue-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppKitGlue-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C167C2890A1097EEA71929629DF1BCE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		7F0BBB0F05423EF2A998E7B5AC1A1B61 /* Pods-AppKitGlue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppKitGlue.release.xcconfig"; sourceTree = "<group>"; };
+		800D7B760AAD7B7ED8C8D7EDCBADBCA0 /* Tab+Adaptive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Tab+Adaptive.swift"; path = "Sources/UIKit/Tab+Adaptive.swift"; sourceTree = "<group>"; };
+		8031FE62BD9295B9BD9187D33CA6DD8D /* Types+Description.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Types+Description.swift"; path = "Sources/Types+Description.swift"; sourceTree = "<group>"; };
+		80376646DD3619904E79BC766BE74155 /* AttributedStringTransformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttributedStringTransformation.swift; path = Sources/UIKit/AttributedStringTransformation.swift; sourceTree = "<group>"; };
+		84BF4F3A9E54B57B4C5FDD3AC9EE9ABF /* DynamicColor+HSB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DynamicColor+HSB.swift"; path = "Sources/DynamicColor+HSB.swift"; sourceTree = "<group>"; };
+		8636B7AB1FFDF25EFDEBC45E75EDE3E9 /* BonMot-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BonMot-iOS-umbrella.h"; sourceTree = "<group>"; };
+		8676CB0D34C8592B790CFBBFB645DBB9 /* PinLayout-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PinLayout-iOS-Info.plist"; sourceTree = "<group>"; };
+		8802BC2F864A772C087C96265E6FE394 /* BonMot-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "BonMot-macOS-dummy.m"; path = "../BonMot-macOS/BonMot-macOS-dummy.m"; sourceTree = "<group>"; };
+		88A87AF4ED8D927C893FC7C09CD436DD /* Filters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filters.swift; path = Sources/Filters.swift; sourceTree = "<group>"; };
+		8B046307C2E7A4B2C154ED1C56018DF5 /* UIKit+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Helpers.swift"; path = "Sources/UIKit/UIKit+Helpers.swift"; sourceTree = "<group>"; };
+		9120CD61078CBAA5F3062B765D2F81AB /* Pods-AppKitGlue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppKitGlue.modulemap"; sourceTree = "<group>"; };
+		917E691EB24277A2854E12AD3F06C9F7 /* DynamicColor+HSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DynamicColor+HSL.swift"; path = "Sources/DynamicColor+HSL.swift"; sourceTree = "<group>"; };
+		929D863015198834567C1EA504C4F02E /* PinLayout-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "PinLayout-macOS.xcconfig"; path = "../PinLayout-macOS/PinLayout-macOS.xcconfig"; sourceTree = "<group>"; };
+		938C24C7DC9E097CEA84EAB4B7961F26 /* Pods-TestCatalyst-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestCatalyst-acknowledgements.markdown"; sourceTree = "<group>"; };
+		95380AF2E2861B6B130613344E136DAC /* BonMot-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BonMot-iOS-dummy.m"; sourceTree = "<group>"; };
+		95C887685ED4427D1AAC4D6B0FD78692 /* NamedStyles.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NamedStyles.swift; path = Sources/NamedStyles.swift; sourceTree = "<group>"; };
+		9ACE310FDA12180C53DA223BAFEA22B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		9C01FC0FBF9543F411BFE91DCF36481C /* DynamicColor-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DynamicColor-macOS-prefix.pch"; path = "../DynamicColor-macOS/DynamicColor-macOS-prefix.pch"; sourceTree = "<group>"; };
+		9D5FAC7D9CBF4B18DD4F81F127FB41DB /* DynamicColor-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicColor-iOS-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E3BD67D29F4653358402E89F0B06AC3 /* Special.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Special.swift; path = Sources/Special.swift; sourceTree = "<group>"; };
+		9E6149836F600A756D286AE0DBDA4A4E /* MutableCopying.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MutableCopying.swift; path = Sources/MutableCopying.swift; sourceTree = "<group>"; };
+		A3816B0BFBA0EA6D77F8B306498BCDC0 /* PinLayout-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "PinLayout-macOS-Info.plist"; path = "../PinLayout-macOS/PinLayout-macOS-Info.plist"; sourceTree = "<group>"; };
+		A73170878F34737FF1BCBDFDADB31B57 /* PinLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinLayout.swift; path = Sources/PinLayout.swift; sourceTree = "<group>"; };
+		A88CC4CD2D41D90077FFE06BFC52D952 /* Layoutable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Layoutable.swift; path = Sources/Layoutable.swift; sourceTree = "<group>"; };
+		A8F00E208472B02C41AD7FEB005AFF1A /* Image+Tinting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Image+Tinting.swift"; path = "Sources/Image+Tinting.swift"; sourceTree = "<group>"; };
+		A9301F529DCF398A175A43CFB4A3B877 /* AccessibilityHeadingLevel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccessibilityHeadingLevel.swift; path = Sources/AccessibilityHeadingLevel.swift; sourceTree = "<group>"; };
+		A9C8A0887CA99A6D50E69A96E54F24AF /* Pods-AppKitGlue-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AppKitGlue-frameworks.sh"; sourceTree = "<group>"; };
+		AA2A57E3FC76031283E42ABB0AE4D88F /* Pods-AppKitGlue-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppKitGlue-Info.plist"; sourceTree = "<group>"; };
+		AB6CF3A11C008E69FC7A4A8CD45CF790 /* PinLayoutObjC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinLayoutObjC.swift; path = Sources/ObjectiveC/PinLayoutObjC.swift; sourceTree = "<group>"; };
+		ADDB6CF2BEC6DA4A8A98BD11F9365B28 /* Pods-TestCatalyst-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestCatalyst-umbrella.h"; sourceTree = "<group>"; };
+		ADDC9EBE3C860F17609D1EB5D11CF174 /* DynamicColor-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "DynamicColor-macOS.xcconfig"; path = "../DynamicColor-macOS/DynamicColor-macOS.xcconfig"; sourceTree = "<group>"; };
+		B072EBF2408943A4019431CD99D98C8A /* DynamicColor-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "DynamicColor-macOS-Info.plist"; path = "../DynamicColor-macOS/DynamicColor-macOS-Info.plist"; sourceTree = "<group>"; };
+		B1FEC264B038C3BE3349280449FE32A0 /* PinLayoutObjCImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinLayoutObjCImpl.swift; path = Sources/ObjectiveC/PinLayoutObjCImpl.swift; sourceTree = "<group>"; };
+		B32396DF72C71044DA23581805B44D2E /* TextAlignmentConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextAlignmentConstraint.swift; path = Sources/UIKit/TextAlignmentConstraint.swift; sourceTree = "<group>"; };
+		B59E51E05C422BA6024F680E26CAA10A /* DynamicColor-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DynamicColor-macOS-umbrella.h"; path = "../DynamicColor-macOS/DynamicColor-macOS-umbrella.h"; sourceTree = "<group>"; };
+		BB13E4B83514DD8040FBC0087781427F /* PinLayout+Warning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PinLayout+Warning.swift"; path = "Sources/Impl/PinLayout+Warning.swift"; sourceTree = "<group>"; };
+		BC426094DEFC81E5C5E705463ABEBABB /* Pods-TestCatalyst-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestCatalyst-dummy.m"; sourceTree = "<group>"; };
+		C03F41BA820017AE6CF15DE41A9AC884 /* Pods-TestCatalyst-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestCatalyst-frameworks.sh"; sourceTree = "<group>"; };
+		C07F42DC57E9978E23E612D57135E920 /* ContextualAlternates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContextualAlternates.swift; path = Sources/ContextualAlternates.swift; sourceTree = "<group>"; };
+		C13AC71BB54F67137B1B9C09B0AE9413 /* Layoutable+PinLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Layoutable+PinLayout.swift"; path = "Sources/Layoutable+PinLayout.swift"; sourceTree = "<group>"; };
+		C257C07FEA6042EBB95CC136FDD59C83 /* Percent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Percent.swift; path = Sources/Impl/Percent.swift; sourceTree = "<group>"; };
+		C5B9D15A0D27972841C5D02213AEB3A5 /* NSView+PinLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSView+PinLayout.swift"; path = "Sources/Extensions/NSView+PinLayout.swift"; sourceTree = "<group>"; };
+		C69AAC453DD06F2028ADCBC389D2B50B /* BonMot-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BonMot-iOS-Info.plist"; sourceTree = "<group>"; };
+		CC52C4F095190A1DCCCF02D7CD149907 /* Pods_TestCatalyst.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestCatalyst.framework; path = "Pods-TestCatalyst.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD301AEC457C4B477454E348E3B97BD3 /* BonMot-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "BonMot-macOS.xcconfig"; path = "../BonMot-macOS/BonMot-macOS.xcconfig"; sourceTree = "<group>"; };
+		CD51FF909502B28D3899D36B2A8842C2 /* Tracking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tracking.swift; path = Sources/Tracking.swift; sourceTree = "<group>"; };
+		CED6F7A339D856DF818845DAF8940064 /* PinLayout+Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PinLayout+Size.swift"; path = "Sources/PinLayout+Size.swift"; sourceTree = "<group>"; };
+		D07DD528A1DC75729A2D407A912850A6 /* Pods-TestCatalyst.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestCatalyst.modulemap"; sourceTree = "<group>"; };
+		D3F22AEAF8EEDD47E613499A7AF579D7 /* PinLayout+WrapContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PinLayout+WrapContent.swift"; path = "Sources/PinLayout+WrapContent.swift"; sourceTree = "<group>"; };
+		D54FABAC35345A6B1BFD39C907A0F28C /* PinLayout-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "PinLayout-iOS.modulemap"; sourceTree = "<group>"; };
+		D57AD47CB0AAEDAB627806EE722B5B08 /* StringStyle+Part.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringStyle+Part.swift"; path = "Sources/StringStyle+Part.swift"; sourceTree = "<group>"; };
+		D5D17ECB428CE0F8D7C1286672CB8165 /* PinLayout+Coordinates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PinLayout+Coordinates.swift"; path = "Sources/Impl/PinLayout+Coordinates.swift"; sourceTree = "<group>"; };
+		D8F4EE8D234E4040C0D41D19B1B27AF4 /* Pods-AppKitGlue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppKitGlue.debug.xcconfig"; sourceTree = "<group>"; };
+		D93246CBFB4F7D02C1D5DC60B803E78F /* Tracking+Adaptive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Tracking+Adaptive.swift"; path = "Sources/UIKit/Tracking+Adaptive.swift"; sourceTree = "<group>"; };
+		DCDBDD0DF7518F1604B8C7C9C7910B6F /* PinLayout-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinLayout-iOS-umbrella.h"; sourceTree = "<group>"; };
+		DE45B5A9A6A5B02B253D9070FBB50463 /* BonMot-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "BonMot-macOS.modulemap"; path = "../BonMot-macOS/BonMot-macOS.modulemap"; sourceTree = "<group>"; };
+		DFE8E2C60859F5B0B55D1AF5608E68D4 /* BonMot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BonMot.framework; path = "BonMot-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00284A7F187DF645DFB5F80B14D1ED1 /* BonMot-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BonMot-iOS-prefix.pch"; sourceTree = "<group>"; };
+		E0EAAE3A475E0706240DFBCB49BCC915 /* NSAttributedString+Adaptive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+Adaptive.swift"; path = "Sources/UIKit/NSAttributedString+Adaptive.swift"; sourceTree = "<group>"; };
+		E7281967DDC78DEE9517CE4E41191F28 /* BonMot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BonMot.framework; path = "BonMot-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E757D2251E3D221170ACDD30A1D981D4 /* PinLayout+Layouting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PinLayout+Layouting.swift"; path = "Sources/Impl/PinLayout+Layouting.swift"; sourceTree = "<group>"; };
+		E7A17BAFE5DE99C9B578CE9CA74F3577 /* PinLayout-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PinLayout-macOS-dummy.m"; path = "../PinLayout-macOS/PinLayout-macOS-dummy.m"; sourceTree = "<group>"; };
+		E7C9B37E908D5F30CB40F0B334E2F2E3 /* PinLayout-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "PinLayout-macOS.modulemap"; path = "../PinLayout-macOS/PinLayout-macOS.modulemap"; sourceTree = "<group>"; };
+		E83E2074EC92C5A657C4C99100BA7A39 /* Pods-AppKitGlue-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppKitGlue-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EAD749E85C9761ACCA2447132D93C892 /* Pods-AppKitGlue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppKitGlue-dummy.m"; sourceTree = "<group>"; };
+		EB24912EDFD8274C36941A98E9E71FDC /* SizeCalculable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SizeCalculable.swift; path = Sources/SizeCalculable.swift; sourceTree = "<group>"; };
+		EEC98B6725B91ACE4AC4989EB7EE846F /* NSAttributedString+BonMot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+BonMot.swift"; path = "Sources/NSAttributedString+BonMot.swift"; sourceTree = "<group>"; };
+		EF0E482301E13BF790F6375172B3FA94 /* PinLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PinLayout.framework; path = "PinLayout-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF569CCF4362CF6B632E64A4922A1A4A /* AdaptableTextContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdaptableTextContainer.swift; path = Sources/UIKit/AdaptableTextContainer.swift; sourceTree = "<group>"; };
+		F090B8E569C34C1F689CF91544CF7B2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F1500348972CFFD9F9B330892DF46C09 /* Platform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.swift; path = Sources/Platform.swift; sourceTree = "<group>"; };
+		F329E81B32B6A33623BA26FB95A97E34 /* DynamicColor-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicColor-iOS-umbrella.h"; sourceTree = "<group>"; };
+		F69249FF6A8EBC0DD5168D5CFB8EBEB6 /* PinLayout-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PinLayout-macOS-prefix.pch"; path = "../PinLayout-macOS/PinLayout-macOS-prefix.pch"; sourceTree = "<group>"; };
+		FBAA8A8F561C5CD86159983744E46645 /* DynamicColor-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DynamicColor-iOS.xcconfig"; sourceTree = "<group>"; };
+		FE7CC1C21B3976B6125DA5D6C593E195 /* Pin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pin.swift; path = Sources/Pin.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E12A91EF8C336CEE2172A5A1623213F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222C31BA7FCFF3A0B7E7BFC2EA473551 /* Foundation.framework in Frameworks */,
+				617992CCB0C223330E7BBAF6B6744869 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466F660EBACA942E5AE47C47365895B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1935F71025F7508D6F71652788EDBD83 /* AppKit.framework in Frameworks */,
+				F5E7D2B86837EB191FEC767F4B62809A /* Cocoa.framework in Frameworks */,
+				0D2F139F730F1986EA97665EE0C4E3E7 /* CoreGraphics.framework in Frameworks */,
+				C3F93A46C55CA6097F5EEB12CEA0E45C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5434D6FE6B543798BF5B99FA98F20F29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5566861EE14801BAA42B373299E58A87 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		628094C23467FDA2DA3D6F7E0657986D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8496A9B23B13E933F492FC633776BD4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A148AA8AD87E60BD5E4F63351783DC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3297536A8B88C002B32C4259F90F12B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FEEEF382FED6E619613DA2AAE98D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D3CE257C613CF7F0CB6345B860A795 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BE49FA84BA88A3AC6955F0B2925B88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F0F76127AC9CE95D764A48BC2BC404 /* CoreGraphics.framework in Frameworks */,
+				BFBEE15052F7C5A7F8F00F151543D17D /* Foundation.framework in Frameworks */,
+				EEF0B11D3C13BACCEF819683D3CB8F69 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB8263372B03E7DDE9B48A72611B5FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C97BF5337EA60FA9464312EEF22E786 /* AppKit.framework in Frameworks */,
+				FEBBC1EE73E48B8D98B7BA92C6185EB5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		110B7214FB36AE6E6461AE74B3C59E24 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5F01B53FE79FEBE767264A29C5916AB3 /* CoreGraphics.framework */,
+				F090B8E569C34C1F689CF91544CF7B2F /* Foundation.framework */,
+				728FE54A085F335A0088702460656651 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		41486C89BEDF74932413E3B949D4B861 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				53E664F4505FECFA843EBF30AE35DC87 /* AppKit.framework */,
+				7C167C2890A1097EEA71929629DF1BCE /* Cocoa.framework */,
+				9ACE310FDA12180C53DA223BAFEA22B6 /* CoreGraphics.framework */,
+				4812E2293D80934C02987AEC7CC6AB6B /* Foundation.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		43158D9FFB7FFD7C5EE78138AF8905DF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				704C02BC2ED76CDF08C6E3DF6F482EFA /* DynamicColor-iOS.modulemap */,
+				FBAA8A8F561C5CD86159983744E46645 /* DynamicColor-iOS.xcconfig */,
+				1C1BE206E76D9663F14699AFBC81ADB1 /* DynamicColor-iOS-dummy.m */,
+				1361092B0C7E9F2D8697F06B8DEFFF84 /* DynamicColor-iOS-Info.plist */,
+				9D5FAC7D9CBF4B18DD4F81F127FB41DB /* DynamicColor-iOS-prefix.pch */,
+				F329E81B32B6A33623BA26FB95A97E34 /* DynamicColor-iOS-umbrella.h */,
+				1525762BF0C15C02C398C7E8FC9A9D4B /* DynamicColor-macOS.modulemap */,
+				ADDC9EBE3C860F17609D1EB5D11CF174 /* DynamicColor-macOS.xcconfig */,
+				679A04BE372D888A7E0E6247137DDFEC /* DynamicColor-macOS-dummy.m */,
+				B072EBF2408943A4019431CD99D98C8A /* DynamicColor-macOS-Info.plist */,
+				9C01FC0FBF9543F411BFE91DCF36481C /* DynamicColor-macOS-prefix.pch */,
+				B59E51E05C422BA6024F680E26CAA10A /* DynamicColor-macOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DynamicColor-iOS";
+			sourceTree = "<group>";
+		};
+		4FDC220828BAEAD2759C3EB3BB62DFA5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D54FABAC35345A6B1BFD39C907A0F28C /* PinLayout-iOS.modulemap */,
+				2CB883D54F3928DA50D7F148E81BD357 /* PinLayout-iOS.xcconfig */,
+				1418BD14D55354ED5F05E9CEF69D44E4 /* PinLayout-iOS-dummy.m */,
+				8676CB0D34C8592B790CFBBFB645DBB9 /* PinLayout-iOS-Info.plist */,
+				1E939EFD5ED170C6B7906F7C09079A41 /* PinLayout-iOS-prefix.pch */,
+				DCDBDD0DF7518F1604B8C7C9C7910B6F /* PinLayout-iOS-umbrella.h */,
+				E7C9B37E908D5F30CB40F0B334E2F2E3 /* PinLayout-macOS.modulemap */,
+				929D863015198834567C1EA504C4F02E /* PinLayout-macOS.xcconfig */,
+				E7A17BAFE5DE99C9B578CE9CA74F3577 /* PinLayout-macOS-dummy.m */,
+				A3816B0BFBA0EA6D77F8B306498BCDC0 /* PinLayout-macOS-Info.plist */,
+				F69249FF6A8EBC0DD5168D5CFB8EBEB6 /* PinLayout-macOS-prefix.pch */,
+				61444E585412B15D4DD0C5C589938CAB /* PinLayout-macOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PinLayout-iOS";
+			sourceTree = "<group>";
+		};
+		6B5CDFE1CD81371BE06E08714BEA0506 /* Pods-TestCatalyst */ = {
+			isa = PBXGroup;
+			children = (
+				D07DD528A1DC75729A2D407A912850A6 /* Pods-TestCatalyst.modulemap */,
+				938C24C7DC9E097CEA84EAB4B7961F26 /* Pods-TestCatalyst-acknowledgements.markdown */,
+				1316DACD2EAFDA175EADF17F938B2906 /* Pods-TestCatalyst-acknowledgements.plist */,
+				BC426094DEFC81E5C5E705463ABEBABB /* Pods-TestCatalyst-dummy.m */,
+				C03F41BA820017AE6CF15DE41A9AC884 /* Pods-TestCatalyst-frameworks.sh */,
+				1431303C19A4D7FD582081FAADE2D7B1 /* Pods-TestCatalyst-Info.plist */,
+				ADDB6CF2BEC6DA4A8A98BD11F9365B28 /* Pods-TestCatalyst-umbrella.h */,
+				32322531C958CFC4A0CE3B1A8A3E3148 /* Pods-TestCatalyst.debug.xcconfig */,
+				5F3CE34C7AFBAA0CD1934E2C7A1A567E /* Pods-TestCatalyst.release.xcconfig */,
+			);
+			name = "Pods-TestCatalyst";
+			path = "Target Support Files/Pods-TestCatalyst";
+			sourceTree = "<group>";
+		};
+		6D021F2DFCB545EAD7BEB7A321E95788 /* PinLayout */ = {
+			isa = PBXGroup;
+			children = (
+				06D62FD0D0057C3C9C5E30BDDCBF84B7 /* CALayer+PinLayout.swift */,
+				4BB6BB7B6B564DD787AAE910EE394C18 /* Coordinates.swift */,
+				88A87AF4ED8D927C893FC7C09CD436DD /* Filters.swift */,
+				A88CC4CD2D41D90077FFE06BFC52D952 /* Layoutable.swift */,
+				C13AC71BB54F67137B1B9C09B0AE9413 /* Layoutable+PinLayout.swift */,
+				C5B9D15A0D27972841C5D02213AEB3A5 /* NSView+PinLayout.swift */,
+				0BC1772D5C8B1F70A0DDFA407884BA8E /* PEdgeInsets+Operators.swift */,
+				C257C07FEA6042EBB95CC136FDD59C83 /* Percent.swift */,
+				FE7CC1C21B3976B6125DA5D6C593E195 /* Pin.swift */,
+				A73170878F34737FF1BCBDFDADB31B57 /* PinLayout.swift */,
+				32971625A3C610CA7441CA1FD3D21896 /* PinLayout+Between.swift */,
+				D5D17ECB428CE0F8D7C1286672CB8165 /* PinLayout+Coordinates.swift */,
+				E757D2251E3D221170ACDD30A1D981D4 /* PinLayout+Layouting.swift */,
+				6EE8EA91C64150626452CEDFE7A19D1C /* PinLayout+Relative.swift */,
+				CED6F7A339D856DF818845DAF8940064 /* PinLayout+Size.swift */,
+				BB13E4B83514DD8040FBC0087781427F /* PinLayout+Warning.swift */,
+				D3F22AEAF8EEDD47E613499A7AF579D7 /* PinLayout+WrapContent.swift */,
+				AB6CF3A11C008E69FC7A4A8CD45CF790 /* PinLayoutObjC.swift */,
+				B1FEC264B038C3BE3349280449FE32A0 /* PinLayoutObjCImpl.swift */,
+				0F3D2A6F17AF9BA3B72D09E5B7343DBC /* PinSafeArea.swift */,
+				EB24912EDFD8274C36941A98E9E71FDC /* SizeCalculable.swift */,
+				2F56B6A30A95D0EF30CF8714FEA0A105 /* Types.swift */,
+				8031FE62BD9295B9BD9187D33CA6DD8D /* Types+Description.swift */,
+				424F0977B42128EAE232A5DC3F96567C /* TypesImpl.swift */,
+				35F1AC1A7F5EDD44F4273A64A8C023B2 /* UIView+PinLayout.swift */,
+				4FDC220828BAEAD2759C3EB3BB62DFA5 /* Support Files */,
+			);
+			name = PinLayout;
+			path = PinLayout;
+			sourceTree = "<group>";
+		};
+		750126DEBAD6818A8E157F41C182B90D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7281967DDC78DEE9517CE4E41191F28 /* BonMot.framework */,
+				DFE8E2C60859F5B0B55D1AF5608E68D4 /* BonMot.framework */,
+				321CF37802C72CEDA21C3F8E92597A64 /* DynamicColor.framework */,
+				34370B7FE8860830063FAABF968D8684 /* DynamicColor.framework */,
+				EF0E482301E13BF790F6375172B3FA94 /* PinLayout.framework */,
+				48275147FDE3D2B795DE6855D1F879B9 /* PinLayout.framework */,
+				0973E97B20CF80012AD207E18A2009F6 /* Pods_AppKitGlue.framework */,
+				CC52C4F095190A1DCCCF02D7CD149907 /* Pods_TestCatalyst.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		827E1818163FE80901A8B3E660A0728D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				110B7214FB36AE6E6461AE74B3C59E24 /* iOS */,
+				41486C89BEDF74932413E3B949D4B861 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98694A6DAD2079E0820E8DFA55D49139 /* DynamicColor */ = {
+			isa = PBXGroup;
+			children = (
+				3FED79A686033F299D72E027E230F5EC /* Array.swift */,
+				66559A798440E480D4FBE33023D806BF /* ContrastDisplayContext.swift */,
+				4DC7AF325EE7651A0C5F2C5F1B664F2B /* DynamicColor.swift */,
+				69EA4AFA25DC1DAC0EC5D5F862869C9C /* DynamicColor+Deriving.swift */,
+				84BF4F3A9E54B57B4C5FDD3AC9EE9ABF /* DynamicColor+HSB.swift */,
+				917E691EB24277A2854E12AD3F06C9F7 /* DynamicColor+HSL.swift */,
+				582639716B9B7AC385B8ADB85D0155D7 /* DynamicColor+Lab.swift */,
+				28BC40CF484AC8ED06F7F349EFC8FC16 /* DynamicColor+Mixing.swift */,
+				2048F53478CA200ED07B9B3190DB97E9 /* DynamicColor+RGBA.swift */,
+				384B826EC7D8BC1F8B1166425AA1F0E1 /* DynamicColor+XYZ.swift */,
+				471F3C7ECEC7BAF1DD54A0336D9AC3E0 /* DynamicColorSpace.swift */,
+				21BD1632C33636F94743F2446770013B /* DynamicGradient.swift */,
+				270CDBDE6EBECE94D680DBE73B79A017 /* HSL.swift */,
+				00C2658B852F3B9984B5F1C4DF2CFD3A /* Utils.swift */,
+				43158D9FFB7FFD7C5EE78138AF8905DF /* Support Files */,
+			);
+			name = DynamicColor;
+			path = DynamicColor;
+			sourceTree = "<group>";
+		};
+		9C3434599A44B642D90A4EF3015D3FF2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				511DAA542B80F1242D8828F7B6A563F8 /* BonMot-iOS.modulemap */,
+				46DDCE55A760C9F408CA85EBB2E8A54A /* BonMot-iOS.xcconfig */,
+				95380AF2E2861B6B130613344E136DAC /* BonMot-iOS-dummy.m */,
+				C69AAC453DD06F2028ADCBC389D2B50B /* BonMot-iOS-Info.plist */,
+				E00284A7F187DF645DFB5F80B14D1ED1 /* BonMot-iOS-prefix.pch */,
+				8636B7AB1FFDF25EFDEBC45E75EDE3E9 /* BonMot-iOS-umbrella.h */,
+				DE45B5A9A6A5B02B253D9070FBB50463 /* BonMot-macOS.modulemap */,
+				CD301AEC457C4B477454E348E3B97BD3 /* BonMot-macOS.xcconfig */,
+				8802BC2F864A772C087C96265E6FE394 /* BonMot-macOS-dummy.m */,
+				7287945D3C6D918FBC784E44DAA05A2A /* BonMot-macOS-Info.plist */,
+				14BBE5274181874A9FBDEA5F53D1B603 /* BonMot-macOS-prefix.pch */,
+				6F4BA257736D0C805B7086442EF0820A /* BonMot-macOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BonMot-iOS";
+			sourceTree = "<group>";
+		};
+		9FFCB2943AB07BE55EA597CD5C17F8A4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0181E72F2E4953F38D6F11BF2CFFDC8 /* Pods-AppKitGlue */,
+				6B5CDFE1CD81371BE06E08714BEA0506 /* Pods-TestCatalyst */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B0181E72F2E4953F38D6F11BF2CFFDC8 /* Pods-AppKitGlue */ = {
+			isa = PBXGroup;
+			children = (
+				9120CD61078CBAA5F3062B765D2F81AB /* Pods-AppKitGlue.modulemap */,
+				E83E2074EC92C5A657C4C99100BA7A39 /* Pods-AppKitGlue-acknowledgements.markdown */,
+				77E4CE4A5641DEDFAB2291F32DEF0F06 /* Pods-AppKitGlue-acknowledgements.plist */,
+				EAD749E85C9761ACCA2447132D93C892 /* Pods-AppKitGlue-dummy.m */,
+				A9C8A0887CA99A6D50E69A96E54F24AF /* Pods-AppKitGlue-frameworks.sh */,
+				AA2A57E3FC76031283E42ABB0AE4D88F /* Pods-AppKitGlue-Info.plist */,
+				34EB252DECA5ACE5B4A9985C483A39A7 /* Pods-AppKitGlue-umbrella.h */,
+				D8F4EE8D234E4040C0D41D19B1B27AF4 /* Pods-AppKitGlue.debug.xcconfig */,
+				7F0BBB0F05423EF2A998E7B5AC1A1B61 /* Pods-AppKitGlue.release.xcconfig */,
+			);
+			name = "Pods-AppKitGlue";
+			path = "Target Support Files/Pods-AppKitGlue";
+			sourceTree = "<group>";
+		};
+		BE90146D2869EA676DE9979CAC851DDE /* BonMot */ = {
+			isa = PBXGroup;
+			children = (
+				A9301F529DCF398A175A43CFB4A3B877 /* AccessibilityHeadingLevel.swift */,
+				EF569CCF4362CF6B632E64A4922A1A4A /* AdaptableTextContainer.swift */,
+				58E231944186CAEFCC852601D7B33BBF /* AdaptiveStyle.swift */,
+				176B2F8417ECCC66948527BEF6D17843 /* AdaptiveStyleTransformation.swift */,
+				80376646DD3619904E79BC766BE74155 /* AttributedStringTransformation.swift */,
+				1D23E15742FD2A65DC10E5B4C8AB71BF /* Compatibility.swift */,
+				35EF2F9CF652657868BACB21BB1FFD5F /* Composable.swift */,
+				C07F42DC57E9978E23E612D57135E920 /* ContextualAlternates.swift */,
+				699225597158ED4ECDE67A78F5C0A789 /* EmbeddedTransformation.swift */,
+				24CFE46F5DF27EE7492192EFAD58D997 /* Emphasis.swift */,
+				21C2CF5E5A6CD586C7942471AC733F0F /* FontFeatures.swift */,
+				1CA171C57737791C848458DED7115045 /* FontInspector.swift */,
+				A8F00E208472B02C41AD7FEB005AFF1A /* Image+Tinting.swift */,
+				20D418E98509C6C3439F8AF129C2D040 /* Ligatures.swift */,
+				9E6149836F600A756D286AE0DBDA4A4E /* MutableCopying.swift */,
+				95C887685ED4427D1AAC4D6B0FD78692 /* NamedStyles.swift */,
+				E0EAAE3A475E0706240DFBCB49BCC915 /* NSAttributedString+Adaptive.swift */,
+				EEC98B6725B91ACE4AC4989EB7EE846F /* NSAttributedString+BonMot.swift */,
+				F1500348972CFFD9F9B330892DF46C09 /* Platform.swift */,
+				9E3BD67D29F4653358402E89F0B06AC3 /* Special.swift */,
+				362838EEEE188F164A9CD679685E0AFE /* StringStyle.swift */,
+				D57AD47CB0AAEDAB627806EE722B5B08 /* StringStyle+Part.swift */,
+				38AE1931A3D417247059D9166847F985 /* StyleableUIElement.swift */,
+				50D6B36FADE1B4954CFD01AEDFFDB014 /* StylisticAlternates.swift */,
+				0EF46FAC5B9955F2A6E3001B6FB1D9B4 /* Tab.swift */,
+				800D7B760AAD7B7ED8C8D7EDCBADBCA0 /* Tab+Adaptive.swift */,
+				B32396DF72C71044DA23581805B44D2E /* TextAlignmentConstraint.swift */,
+				CD51FF909502B28D3899D36B2A8842C2 /* Tracking.swift */,
+				D93246CBFB4F7D02C1D5DC60B803E78F /* Tracking+Adaptive.swift */,
+				4E3D1CFC8D1A132FC103895D8D8CEFF7 /* Transform.swift */,
+				0722043ABEADD021CE88BEE725E32923 /* UIKit+AdaptableTextContainerSupport.swift */,
+				8B046307C2E7A4B2C154ED1C56018DF5 /* UIKit+Helpers.swift */,
+				637EEB6E899B91343B315AA42DB0FE54 /* XMLBuilder.swift */,
+				9C3434599A44B642D90A4EF3015D3FF2 /* Support Files */,
+			);
+			name = BonMot;
+			path = BonMot;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				827E1818163FE80901A8B3E660A0728D /* Frameworks */,
+				DE748F7282A5294659C367125629F27F /* Pods */,
+				750126DEBAD6818A8E157F41C182B90D /* Products */,
+				9FFCB2943AB07BE55EA597CD5C17F8A4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DE748F7282A5294659C367125629F27F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE90146D2869EA676DE9979CAC851DDE /* BonMot */,
+				98694A6DAD2079E0820E8DFA55D49139 /* DynamicColor */,
+				6D021F2DFCB545EAD7BEB7A321E95788 /* PinLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		409F44D6B7698BB228466A61FF06F08C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50DF4EB2B372D7DAAAAF7BE866BC885 /* DynamicColor-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC865C622760B55B6304684E7DB0032 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7198943DA49F778FA1B21E3A44772CB /* PinLayout-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80621100C64EDA79E2B83DB73EBE5294 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE2AB2AF9656AB3FDA0C4AC39227211 /* DynamicColor-macOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885FFB4B11A2D38C10D9D8C72320F82B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2829E1EC4479830AA219FF7B6120EC5 /* BonMot-macOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9482C593EA0C848D9EC1E7858F999E7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08C12473D8BD6E3215C5F30A5C3DA02E /* Pods-AppKitGlue-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3AEB5E327CB364D2F41272BD9F1DCBC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2740F0BD7D130DBAD2A0167A9F95036A /* Pods-TestCatalyst-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD85D5B7BB7D0D6F8F90BB894B974808 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5652382B0D30297D5A15FB05F9899B /* PinLayout-macOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8A66E48C2EDE11368C7EDEB1DB590BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6122719C38E34A883EFF656C8C727BD3 /* BonMot-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		12E394D5106C60B210EAD4E7E555F057 /* BonMot-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC1F574CDCE54B4E0161A4EA396DF1A /* Build configuration list for PBXNativeTarget "BonMot-macOS" */;
+			buildPhases = (
+				885FFB4B11A2D38C10D9D8C72320F82B /* Headers */,
+				A93D6F6136ADC235C5AFB119DAC522CE /* Sources */,
+				A0FEEEF382FED6E619613DA2AAE98D8C /* Frameworks */,
+				47C94CEC909C4C299F65D79067F65A43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BonMot-macOS";
+			productName = "BonMot-macOS";
+			productReference = DFE8E2C60859F5B0B55D1AF5608E68D4 /* BonMot.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3DBAC26EE50D807147CCEDC8AFB29A18 /* BonMot-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F343BC299FD6DFA773B2B1DBEFF0801 /* Build configuration list for PBXNativeTarget "BonMot-iOS" */;
+			buildPhases = (
+				E8A66E48C2EDE11368C7EDEB1DB590BA /* Headers */,
+				29EB2C739D5E658FBBBE9FC12589CAF6 /* Sources */,
+				9A148AA8AD87E60BD5E4F63351783DC3 /* Frameworks */,
+				3921901C28DEC3A2570A90C6807A1A94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BonMot-iOS";
+			productName = "BonMot-iOS";
+			productReference = E7281967DDC78DEE9517CE4E41191F28 /* BonMot.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		56D9443624F9A5CEE02BAA3461C09228 /* PinLayout-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85A9EBF0B328AAABCEE005BC4C70B12 /* Build configuration list for PBXNativeTarget "PinLayout-iOS" */;
+			buildPhases = (
+				5CC865C622760B55B6304684E7DB0032 /* Headers */,
+				AA5A73EF096052286852893B081C86CD /* Sources */,
+				B7BE49FA84BA88A3AC6955F0B2925B88 /* Frameworks */,
+				2FA97AB43DF044AF31718A4454CE277F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PinLayout-iOS";
+			productName = "PinLayout-iOS";
+			productReference = EF0E482301E13BF790F6375172B3FA94 /* PinLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		913F200962B86B372E340725B856C9DA /* Pods-TestCatalyst */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE51C1A6A19B792A1A59B30D89A0CAC7 /* Build configuration list for PBXNativeTarget "Pods-TestCatalyst" */;
+			buildPhases = (
+				D3AEB5E327CB364D2F41272BD9F1DCBC /* Headers */,
+				53A2E30138D377508A530B53521BCEF3 /* Sources */,
+				5434D6FE6B543798BF5B99FA98F20F29 /* Frameworks */,
+				653C48C3DC61681512F2364AAA05B9FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0999DD9AA9AE85BA7D318A94533B2C5B /* PBXTargetDependency */,
+				540EF08C46F39970AEA2475B30D46FC0 /* PBXTargetDependency */,
+				13EBDEEB4374A4189D43A4C130299E48 /* PBXTargetDependency */,
+			);
+			name = "Pods-TestCatalyst";
+			productName = "Pods-TestCatalyst";
+			productReference = CC52C4F095190A1DCCCF02D7CD149907 /* Pods_TestCatalyst.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A733FC3F42F37BF321DC812D35C66C19 /* DynamicColor-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2204658A55707C44A882995AFB1FAFB /* Build configuration list for PBXNativeTarget "DynamicColor-iOS" */;
+			buildPhases = (
+				409F44D6B7698BB228466A61FF06F08C /* Headers */,
+				1685FD5D8CB694B24200C5A109CFD6EF /* Sources */,
+				3E12A91EF8C336CEE2172A5A1623213F /* Frameworks */,
+				FA881BEC9C2297803FFFA5110D27F486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DynamicColor-iOS";
+			productName = "DynamicColor-iOS";
+			productReference = 321CF37802C72CEDA21C3F8E92597A64 /* DynamicColor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9FFC76ECB35BEE5FB4852E53CB138C5 /* DynamicColor-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378226F72766ACA298DE9D50F47AC4A5 /* Build configuration list for PBXNativeTarget "DynamicColor-macOS" */;
+			buildPhases = (
+				80621100C64EDA79E2B83DB73EBE5294 /* Headers */,
+				095F14CD05BAB97EADB6D376CDB21E0D /* Sources */,
+				DCB8263372B03E7DDE9B48A72611B5FA /* Frameworks */,
+				2AD2CEBB4269B5DBCD20CC0BEE793B1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DynamicColor-macOS";
+			productName = "DynamicColor-macOS";
+			productReference = 34370B7FE8860830063FAABF968D8684 /* DynamicColor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3954717285B1C43FF47D20423DA003B /* PinLayout-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C647CB2C96A3970029ECC4498A06118B /* Build configuration list for PBXNativeTarget "PinLayout-macOS" */;
+			buildPhases = (
+				DD85D5B7BB7D0D6F8F90BB894B974808 /* Headers */,
+				08267F22480622E7C6935901B4D19206 /* Sources */,
+				466F660EBACA942E5AE47C47365895B4 /* Frameworks */,
+				CE9F0895133E2106E0C2C23D5490CD9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PinLayout-macOS";
+			productName = "PinLayout-macOS";
+			productReference = 48275147FDE3D2B795DE6855D1F879B9 /* PinLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F41C5B99EB52CB85EBC2EBE52A14A884 /* Pods-AppKitGlue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEEC96A92BD87E53E1E9336DED144306 /* Build configuration list for PBXNativeTarget "Pods-AppKitGlue" */;
+			buildPhases = (
+				9482C593EA0C848D9EC1E7858F999E7F /* Headers */,
+				7252683BAC2B0A45D5017DAB70913D3F /* Sources */,
+				628094C23467FDA2DA3D6F7E0657986D /* Frameworks */,
+				2E49AEACF9A795B8EA02A88229B9FA2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BD6930B2A237DCA8E894BF76D18C18C /* PBXTargetDependency */,
+				95E8B6E64DF8D6182B67C8C92FFBC8D1 /* PBXTargetDependency */,
+				0206BC058CA722B2D7A196B89F8692E5 /* PBXTargetDependency */,
+			);
+			name = "Pods-AppKitGlue";
+			productName = "Pods-AppKitGlue";
+			productReference = 0973E97B20CF80012AD207E18A2009F6 /* Pods_AppKitGlue.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 750126DEBAD6818A8E157F41C182B90D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DBAC26EE50D807147CCEDC8AFB29A18 /* BonMot-iOS */,
+				12E394D5106C60B210EAD4E7E555F057 /* BonMot-macOS */,
+				A733FC3F42F37BF321DC812D35C66C19 /* DynamicColor-iOS */,
+				A9FFC76ECB35BEE5FB4852E53CB138C5 /* DynamicColor-macOS */,
+				56D9443624F9A5CEE02BAA3461C09228 /* PinLayout-iOS */,
+				C3954717285B1C43FF47D20423DA003B /* PinLayout-macOS */,
+				F41C5B99EB52CB85EBC2EBE52A14A884 /* Pods-AppKitGlue */,
+				913F200962B86B372E340725B856C9DA /* Pods-TestCatalyst */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AD2CEBB4269B5DBCD20CC0BEE793B1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E49AEACF9A795B8EA02A88229B9FA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA97AB43DF044AF31718A4454CE277F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3921901C28DEC3A2570A90C6807A1A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47C94CEC909C4C299F65D79067F65A43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653C48C3DC61681512F2364AAA05B9FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9F0895133E2106E0C2C23D5490CD9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA881BEC9C2297803FFFA5110D27F486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08267F22480622E7C6935901B4D19206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE10D7EAA4A567E01F1FF12024781FF /* CALayer+PinLayout.swift in Sources */,
+				AAA20FC494295FFE1FD3C6468726717C /* Coordinates.swift in Sources */,
+				EEBEBA671B71BEB39CF0A06255CBF2CA /* Filters.swift in Sources */,
+				7BEDF964382DBDB06B4C2262B2F18711 /* Layoutable+PinLayout.swift in Sources */,
+				5EBB065AC55A5083382A1EAC3C7BC4E1 /* Layoutable.swift in Sources */,
+				869860F91B09563554A832385AA60EF7 /* NSView+PinLayout.swift in Sources */,
+				9B0EDB198A21C659D58EC7E8B4AFD6E6 /* PEdgeInsets+Operators.swift in Sources */,
+				21377ACAAA742C27BE6377E2F6C98AE4 /* Percent.swift in Sources */,
+				342528B41F669A5FAF019EAED74BCDD7 /* Pin.swift in Sources */,
+				F66BD8B23CA9CAA767FCF1FA3BBA49F7 /* PinLayout+Between.swift in Sources */,
+				B596AAB06E6EF981DF8395C9B0222AE4 /* PinLayout+Coordinates.swift in Sources */,
+				842D64AA3FA9D21B82293EACD626E153 /* PinLayout+Layouting.swift in Sources */,
+				95470D5D7BD4B250EB45EA20DE9D14F0 /* PinLayout+Relative.swift in Sources */,
+				C57D7DA0B47A58D24679B41162A8BBA6 /* PinLayout+Size.swift in Sources */,
+				FBB363429735E441B586626A9138A27E /* PinLayout+Warning.swift in Sources */,
+				83E0E4B0B27A5B7EF961E20CA6277F69 /* PinLayout+WrapContent.swift in Sources */,
+				3BEEC08D9B1A8F5FDB521ADD402C0031 /* PinLayout-macOS-dummy.m in Sources */,
+				14A5CF3FAA3A4A9C1A12A23481718783 /* PinLayout.swift in Sources */,
+				96F982A57D16EA637D91D0B176980861 /* PinLayoutObjC.swift in Sources */,
+				1D0EBFE95049EBA0FFFD6C0AF48BCD95 /* PinLayoutObjCImpl.swift in Sources */,
+				3DE4C44207255A43F3C45E65E9E1BD85 /* PinSafeArea.swift in Sources */,
+				77866DCF984355E450235089714470A7 /* SizeCalculable.swift in Sources */,
+				27CC4C921C96E7232B950C1E26EC4737 /* Types+Description.swift in Sources */,
+				643F2C959BDE1BF77AA0D85660E11B78 /* Types.swift in Sources */,
+				3068A118882E2FF59847FCC9B3123506 /* TypesImpl.swift in Sources */,
+				295411C1AEEB4F5B9F293E9DEE3DA391 /* UIView+PinLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		095F14CD05BAB97EADB6D376CDB21E0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE455821A7E38DACBEE57C5240E19328 /* Array.swift in Sources */,
+				F276F400EB08E05DD36203D339F37BE3 /* ContrastDisplayContext.swift in Sources */,
+				642994FB30DDA6EC11E909C7804E39AB /* DynamicColor+Deriving.swift in Sources */,
+				9F450B6A0EE0C0AA56A71B1316E55C75 /* DynamicColor+HSB.swift in Sources */,
+				94FDEF67995EE7E8BAC545FDA9A7B689 /* DynamicColor+HSL.swift in Sources */,
+				06B3868D344E4ADA165B9EA459675886 /* DynamicColor+Lab.swift in Sources */,
+				8C5934CB1CF98589F835C0906FCFF332 /* DynamicColor+Mixing.swift in Sources */,
+				5266DEF7EBD491548A070DE041497558 /* DynamicColor+RGBA.swift in Sources */,
+				44E8EE090383600DB147411EB1D41763 /* DynamicColor+XYZ.swift in Sources */,
+				9CFF2A9E4EFDF924AA7DEA0D45391084 /* DynamicColor-macOS-dummy.m in Sources */,
+				00DA07D3E5D279D7FE127D34D0A096BE /* DynamicColor.swift in Sources */,
+				E4F67F6A656BFC75190B3BF904523C3C /* DynamicColorSpace.swift in Sources */,
+				C083DAAE621A8F87C892B92ABDD5FA66 /* DynamicGradient.swift in Sources */,
+				510BB9287C609EA13774AC3DF538535D /* HSL.swift in Sources */,
+				D2F751C27AC6BBC2D4EB6078426C9AEB /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1685FD5D8CB694B24200C5A109CFD6EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A9B6169AD3704BB14CA7D1F27350AE /* Array.swift in Sources */,
+				52EDA9B5C99A5020F13FFF1759B74DFD /* ContrastDisplayContext.swift in Sources */,
+				84CBB04AA02BCC8A29646EADB50AD6B7 /* DynamicColor+Deriving.swift in Sources */,
+				D40FB9E77E4127C1B5F34053EDF84AA1 /* DynamicColor+HSB.swift in Sources */,
+				BBD3154BB43AF389325A545FACCDDF74 /* DynamicColor+HSL.swift in Sources */,
+				215D95D191FD53DF1EE5C48061502154 /* DynamicColor+Lab.swift in Sources */,
+				B853B014DE2A55A7F564CEA97BF70289 /* DynamicColor+Mixing.swift in Sources */,
+				52CF893D1CFC6F74BEF4CA7A6129F687 /* DynamicColor+RGBA.swift in Sources */,
+				FC368D52C490A794440BDA4CA6F80BD4 /* DynamicColor+XYZ.swift in Sources */,
+				2B0966AFB1F9807AE94E023662FAC3A2 /* DynamicColor-iOS-dummy.m in Sources */,
+				737AE1C60F190DD7DFE58F079CA3870E /* DynamicColor.swift in Sources */,
+				959771E2196061E2F4B7A506F39A8DF9 /* DynamicColorSpace.swift in Sources */,
+				7D11514DD0AB8DF80D8D47AD0CE24DC9 /* DynamicGradient.swift in Sources */,
+				60B21417DDDD213992D09497CD8CD5B0 /* HSL.swift in Sources */,
+				442D05A08610ED065BC64AC1634D53AF /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29EB2C739D5E658FBBBE9FC12589CAF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DD25AF94FF690BAB6F9DD11F360A4C1 /* AccessibilityHeadingLevel.swift in Sources */,
+				BA5279E597B23BAD187198CDC2E96DFF /* AdaptableTextContainer.swift in Sources */,
+				745DB33CD1377FBFD67DE8592021F822 /* AdaptiveStyle.swift in Sources */,
+				9FE900C1D149F77214C70E2137531A4A /* AdaptiveStyleTransformation.swift in Sources */,
+				95D947D9B0A6E1C87F5D2CB81A9CA33E /* AttributedStringTransformation.swift in Sources */,
+				741BDA355887B158BEFC3E4B5163CE7C /* BonMot-iOS-dummy.m in Sources */,
+				6D1ADF445F3ADF4FFD83F47F261894D6 /* Compatibility.swift in Sources */,
+				6DD90827BF8E6D69779F74F31BEF5131 /* Composable.swift in Sources */,
+				8936E7660B28C743CCE3AFD7A5CA233C /* ContextualAlternates.swift in Sources */,
+				813552C53D1681ED719BA3F72B6C005E /* EmbeddedTransformation.swift in Sources */,
+				853360B263043E3A3A39E213D8DF7154 /* Emphasis.swift in Sources */,
+				BCCFBD216FC133F71BD03610282E6F54 /* FontFeatures.swift in Sources */,
+				CDBBCF58478DC114A114F7649BA5203B /* FontInspector.swift in Sources */,
+				37F195C15CD0147EB1173475BA14C000 /* Image+Tinting.swift in Sources */,
+				F30A81428B153129D1D9B2B6E329DC5B /* Ligatures.swift in Sources */,
+				C41350A69AA1E7BA85E7229616574BA1 /* MutableCopying.swift in Sources */,
+				48855C265C51ACB2E9AE3A7FD431FB9D /* NamedStyles.swift in Sources */,
+				4D468BDA761D174B61AA2F1CE7FF0077 /* NSAttributedString+Adaptive.swift in Sources */,
+				7F29BECF738ECD6E4A25DA83AD0CB4D8 /* NSAttributedString+BonMot.swift in Sources */,
+				22C31368AD0084FF994817FB98692DB2 /* Platform.swift in Sources */,
+				EA076843CB1EC91DBEAF70A817FCE537 /* Special.swift in Sources */,
+				41FA5028EB6A4818C854374FC7C67A04 /* StringStyle+Part.swift in Sources */,
+				8363C6519ACEA19E113A45767BB9AB56 /* StringStyle.swift in Sources */,
+				6B706DCC2C7D760ED7EBA4020EB790C1 /* StyleableUIElement.swift in Sources */,
+				8C45E9B438233540DCBBA68AFDE37AFF /* StylisticAlternates.swift in Sources */,
+				9180F1D35DBBB03FA0507E2D437B11B2 /* Tab+Adaptive.swift in Sources */,
+				6907709D950A7F75D415E30E2490A7FB /* Tab.swift in Sources */,
+				68A2D2D0D17495245B42CA69B58A933F /* TextAlignmentConstraint.swift in Sources */,
+				1555C980FB36CECCCB2DEE61D0976A86 /* Tracking+Adaptive.swift in Sources */,
+				62FCE625733EEC20746C75255FEA3A7B /* Tracking.swift in Sources */,
+				A55E71E3738AC765CA149B5BB73E8B3B /* Transform.swift in Sources */,
+				06A991403834B10AA48B762A61DF9B58 /* UIKit+AdaptableTextContainerSupport.swift in Sources */,
+				973A58626E217E91C6B6C692CFC40B0B /* UIKit+Helpers.swift in Sources */,
+				3558CED4E338FE8CF8A716B4577BD019 /* XMLBuilder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53A2E30138D377508A530B53521BCEF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F0B12A0ED41BA641793548A909AAD8 /* Pods-TestCatalyst-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7252683BAC2B0A45D5017DAB70913D3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E7C318A6CEAB5E9D76509C2050CA57A /* Pods-AppKitGlue-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93D6F6136ADC235C5AFB119DAC522CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82898EC3EAB39FB519DE2E2498C799E /* AccessibilityHeadingLevel.swift in Sources */,
+				33004C9D255B3FF41B2B3D3F16DA1F6F /* BonMot-macOS-dummy.m in Sources */,
+				99640DD179A402D264BBBA42F962B70A /* Compatibility.swift in Sources */,
+				FCB99A7BD381BC8869B18E24B37563F6 /* Composable.swift in Sources */,
+				0E9619CA40FAF8401616E1ECB925E145 /* ContextualAlternates.swift in Sources */,
+				4C09A4DEEB0AD3EBEAFBF3F14BAF3F18 /* Emphasis.swift in Sources */,
+				6534BE2997205CDF770E9BDC4483A7B7 /* FontFeatures.swift in Sources */,
+				CABCEC8B5CE302D14B2D8314DC174707 /* FontInspector.swift in Sources */,
+				B09349D95AC294A63F10188054ACF70E /* Image+Tinting.swift in Sources */,
+				4FD8E04F34406B21235DAE5319D3CEEE /* Ligatures.swift in Sources */,
+				0D2C546349906F019B45B1DDC9279DA6 /* MutableCopying.swift in Sources */,
+				1EDE3555FD58D4B21EAED03446096560 /* NamedStyles.swift in Sources */,
+				7FABCAF4D763EE035DF694F6C53CCA84 /* NSAttributedString+BonMot.swift in Sources */,
+				1A4DD49395F5068C3BA02F9CF5342159 /* Platform.swift in Sources */,
+				7459AAF626D48533B6696E8040482077 /* Special.swift in Sources */,
+				811B202A06306242FD62D0D7C6F6EED1 /* StringStyle+Part.swift in Sources */,
+				6128C06D5FC9ED0A3A156BB58CE32AAC /* StringStyle.swift in Sources */,
+				2BB28928E83EEB7B3EE7A783789685C5 /* StylisticAlternates.swift in Sources */,
+				B59379D8BEF25278082160510EE38747 /* Tab.swift in Sources */,
+				AE844B878BD9B85C8DD2C0445244D718 /* Tracking.swift in Sources */,
+				880E8864D7B5367162CB19EBBABCBDC7 /* Transform.swift in Sources */,
+				AA0862830AD0B319B8075B43D41D9D6F /* XMLBuilder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5A73EF096052286852893B081C86CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359873D3BE4FBA8613EEC83EF97E8F22 /* CALayer+PinLayout.swift in Sources */,
+				DECC422FA9AF41268A9B1DB93BE688C7 /* Coordinates.swift in Sources */,
+				37D290DFC9978C93CA63E3A58490B310 /* Filters.swift in Sources */,
+				299EB0B203170461AFD913F5024D9B54 /* Layoutable+PinLayout.swift in Sources */,
+				17346297412E96B51CBEC5039017C47B /* Layoutable.swift in Sources */,
+				E88B74E1A83E10998E9EE3ABC42B121F /* NSView+PinLayout.swift in Sources */,
+				E9436D7357E36646929B4BA1CA232221 /* PEdgeInsets+Operators.swift in Sources */,
+				18FB0A17EC37BA8929D06F3D57702AF4 /* Percent.swift in Sources */,
+				A624591E3F61258761C933F5A57FC3CA /* Pin.swift in Sources */,
+				08B3E4AE35ACBF037886605FA839643D /* PinLayout+Between.swift in Sources */,
+				1582075EE2A07DDC3E4EF7B8DA51C6F6 /* PinLayout+Coordinates.swift in Sources */,
+				5E3E68CD85CFD6EE9483DC6427EB5D44 /* PinLayout+Layouting.swift in Sources */,
+				69E0D163B2E754C4226804799B41F956 /* PinLayout+Relative.swift in Sources */,
+				73F9FF8BE879CD071DD6965405B2B3D0 /* PinLayout+Size.swift in Sources */,
+				5AF04F5F4AE0AC48C086BB94FDE9FAE9 /* PinLayout+Warning.swift in Sources */,
+				FC74C4618A2375BB2F2B28C40915B59A /* PinLayout+WrapContent.swift in Sources */,
+				C37BC7E6BB41E329C101D40B3DA46C82 /* PinLayout-iOS-dummy.m in Sources */,
+				6508E77B06B7A3DDE16A0FD49D47714E /* PinLayout.swift in Sources */,
+				AA00E9C671E36ABC781CC1237DE228ED /* PinLayoutObjC.swift in Sources */,
+				D97FBABB619C9189F0B7DFC09AF6C969 /* PinLayoutObjCImpl.swift in Sources */,
+				F29B8FF7275952B991409068DE81E516 /* PinSafeArea.swift in Sources */,
+				3E4FDF5286568D667303D15F13546904 /* SizeCalculable.swift in Sources */,
+				2E32372CDCAF0D2785CA5DEFDD876E92 /* Types+Description.swift in Sources */,
+				C0EAA6E85713A0D9448129FD68F4EDBC /* Types.swift in Sources */,
+				D8163517802CBF4CEA59C495BD2438AB /* TypesImpl.swift in Sources */,
+				1C67AA4D091CD4428D14F7A09C207CE7 /* UIView+PinLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0206BC058CA722B2D7A196B89F8692E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PinLayout-macOS";
+			target = C3954717285B1C43FF47D20423DA003B /* PinLayout-macOS */;
+			targetProxy = 1EF092FCE3048DE0A6F16D13261EB527 /* PBXContainerItemProxy */;
+		};
+		0999DD9AA9AE85BA7D318A94533B2C5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BonMot-iOS";
+			target = 3DBAC26EE50D807147CCEDC8AFB29A18 /* BonMot-iOS */;
+			targetProxy = A0E2AFF505B010ACDC5B61D80C97ABFC /* PBXContainerItemProxy */;
+		};
+		13EBDEEB4374A4189D43A4C130299E48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PinLayout-iOS";
+			target = 56D9443624F9A5CEE02BAA3461C09228 /* PinLayout-iOS */;
+			targetProxy = 40AD4D1FE091B368B93A49CD12BA29D6 /* PBXContainerItemProxy */;
+		};
+		540EF08C46F39970AEA2475B30D46FC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DynamicColor-iOS";
+			target = A733FC3F42F37BF321DC812D35C66C19 /* DynamicColor-iOS */;
+			targetProxy = 9C52E2FD3058A3A35B2738C5B83223F1 /* PBXContainerItemProxy */;
+		};
+		95E8B6E64DF8D6182B67C8C92FFBC8D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DynamicColor-macOS";
+			target = A9FFC76ECB35BEE5FB4852E53CB138C5 /* DynamicColor-macOS */;
+			targetProxy = 722C832666E35BE6BD2AECD13ED2BE4F /* PBXContainerItemProxy */;
+		};
+		9BD6930B2A237DCA8E894BF76D18C18C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BonMot-macOS";
+			target = 12E394D5106C60B210EAD4E7E555F057 /* BonMot-macOS */;
+			targetProxy = 13C025CF3C44D800FCB1E28E220CC321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E0C1F91BC380731AF3645C98331537C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD301AEC457C4B477454E348E3B97BD3 /* BonMot-macOS.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/BonMot-macOS/BonMot-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BonMot-macOS/BonMot-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/BonMot-macOS/BonMot-macOS.modulemap";
+				PRODUCT_MODULE_NAME = BonMot;
+				PRODUCT_NAME = BonMot;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1ECE755007210492196DEA1972780C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBAA8A8F561C5CD86159983744E46645 /* DynamicColor-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicColor-iOS/DynamicColor-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicColor-iOS/DynamicColor-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DynamicColor-iOS/DynamicColor-iOS.modulemap";
+				PRODUCT_MODULE_NAME = DynamicColor;
+				PRODUCT_NAME = DynamicColor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		320C1BB32F3A29D81DCF5DBA9CC7396C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADDC9EBE3C860F17609D1EB5D11CF174 /* DynamicColor-macOS.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicColor-macOS/DynamicColor-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicColor-macOS/DynamicColor-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/DynamicColor-macOS/DynamicColor-macOS.modulemap";
+				PRODUCT_MODULE_NAME = DynamicColor;
+				PRODUCT_NAME = DynamicColor;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		428147D426BF13A33869158D67C0116D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CB883D54F3928DA50D7F148E81BD357 /* PinLayout-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PinLayout-iOS/PinLayout-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PinLayout-iOS/PinLayout-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PinLayout-iOS/PinLayout-iOS.modulemap";
+				PRODUCT_MODULE_NAME = PinLayout;
+				PRODUCT_NAME = PinLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		443BFA5AAB19276C9174375068040228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		44BCFDF567471119296902BB84727031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		72EA9B68E23DE162424C993138BFD227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 929D863015198834567C1EA504C4F02E /* PinLayout-macOS.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/PinLayout-macOS/PinLayout-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PinLayout-macOS/PinLayout-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/PinLayout-macOS/PinLayout-macOS.modulemap";
+				PRODUCT_MODULE_NAME = PinLayout;
+				PRODUCT_NAME = PinLayout;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7AE0AD537D2DF232011EF5A1650A3631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32322531C958CFC4A0CE3B1A8A3E3148 /* Pods-TestCatalyst.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestCatalyst/Pods-TestCatalyst-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestCatalyst/Pods-TestCatalyst.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		804C891E1A9259FA212BCE9988FAB964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46DDCE55A760C9F408CA85EBB2E8A54A /* BonMot-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BonMot-iOS/BonMot-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BonMot-iOS/BonMot-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BonMot-iOS/BonMot-iOS.modulemap";
+				PRODUCT_MODULE_NAME = BonMot;
+				PRODUCT_NAME = BonMot;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1A35D185A19CC7711FA81202E0FD535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBAA8A8F561C5CD86159983744E46645 /* DynamicColor-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicColor-iOS/DynamicColor-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicColor-iOS/DynamicColor-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DynamicColor-iOS/DynamicColor-iOS.modulemap";
+				PRODUCT_MODULE_NAME = DynamicColor;
+				PRODUCT_NAME = DynamicColor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C2717A57D28833501D04673175B16F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F3CE34C7AFBAA0CD1934E2C7A1A567E /* Pods-TestCatalyst.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestCatalyst/Pods-TestCatalyst-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestCatalyst/Pods-TestCatalyst.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D1109EC2BAA0894FAB9382386823BEBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CB883D54F3928DA50D7F148E81BD357 /* PinLayout-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PinLayout-iOS/PinLayout-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PinLayout-iOS/PinLayout-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PinLayout-iOS/PinLayout-iOS.modulemap";
+				PRODUCT_MODULE_NAME = PinLayout;
+				PRODUCT_NAME = PinLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DBC69F57878415FF6A99941D8256CB33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8F4EE8D234E4040C0D41D19B1B27AF4 /* Pods-AppKitGlue.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-AppKitGlue/Pods-AppKitGlue-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppKitGlue/Pods-AppKitGlue.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DDE03F485E716E5627B0ED79900F85D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 929D863015198834567C1EA504C4F02E /* PinLayout-macOS.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/PinLayout-macOS/PinLayout-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PinLayout-macOS/PinLayout-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/PinLayout-macOS/PinLayout-macOS.modulemap";
+				PRODUCT_MODULE_NAME = PinLayout;
+				PRODUCT_NAME = PinLayout;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EB06FC9FF7F8B55F416029258EB61D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F0BBB0F05423EF2A998E7B5AC1A1B61 /* Pods-AppKitGlue.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-AppKitGlue/Pods-AppKitGlue-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppKitGlue/Pods-AppKitGlue.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB3CE615FBDF647067D901842460B7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADDC9EBE3C860F17609D1EB5D11CF174 /* DynamicColor-macOS.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicColor-macOS/DynamicColor-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicColor-macOS/DynamicColor-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/DynamicColor-macOS/DynamicColor-macOS.modulemap";
+				PRODUCT_MODULE_NAME = DynamicColor;
+				PRODUCT_NAME = DynamicColor;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECFC0E727E03C91B4B8A7E0E60240523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46DDCE55A760C9F408CA85EBB2E8A54A /* BonMot-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BonMot-iOS/BonMot-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BonMot-iOS/BonMot-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BonMot-iOS/BonMot-iOS.modulemap";
+				PRODUCT_MODULE_NAME = BonMot;
+				PRODUCT_NAME = BonMot;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F5E95394F2766D6D7A8DFD27BF6EA7CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD301AEC457C4B477454E348E3B97BD3 /* BonMot-macOS.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/BonMot-macOS/BonMot-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BonMot-macOS/BonMot-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/BonMot-macOS/BonMot-macOS.modulemap";
+				PRODUCT_MODULE_NAME = BonMot;
+				PRODUCT_NAME = BonMot;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		378226F72766ACA298DE9D50F47AC4A5 /* Build configuration list for PBXNativeTarget "DynamicColor-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB3CE615FBDF647067D901842460B7D3 /* Debug */,
+				320C1BB32F3A29D81DCF5DBA9CC7396C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44BCFDF567471119296902BB84727031 /* Debug */,
+				443BFA5AAB19276C9174375068040228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F343BC299FD6DFA773B2B1DBEFF0801 /* Build configuration list for PBXNativeTarget "BonMot-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804C891E1A9259FA212BCE9988FAB964 /* Debug */,
+				ECFC0E727E03C91B4B8A7E0E60240523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC1F574CDCE54B4E0161A4EA396DF1A /* Build configuration list for PBXNativeTarget "BonMot-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E95394F2766D6D7A8DFD27BF6EA7CB /* Debug */,
+				1E0C1F91BC380731AF3645C98331537C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2204658A55707C44A882995AFB1FAFB /* Build configuration list for PBXNativeTarget "DynamicColor-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ECE755007210492196DEA1972780C5D /* Debug */,
+				A1A35D185A19CC7711FA81202E0FD535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C647CB2C96A3970029ECC4498A06118B /* Build configuration list for PBXNativeTarget "PinLayout-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE03F485E716E5627B0ED79900F85D2 /* Debug */,
+				72EA9B68E23DE162424C993138BFD227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEEC96A92BD87E53E1E9336DED144306 /* Build configuration list for PBXNativeTarget "Pods-AppKitGlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC69F57878415FF6A99941D8256CB33 /* Debug */,
+				EB06FC9FF7F8B55F416029258EB61D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE51C1A6A19B792A1A59B30D89A0CAC7 /* Build configuration list for PBXNativeTarget "Pods-TestCatalyst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AE0AD537D2DF232011EF5A1650A3631 /* Debug */,
+				C2717A57D28833501D04673175B16F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F85A9EBF0B328AAABCEE005BC4C70B12 /* Build configuration list for PBXNativeTarget "PinLayout-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1109EC2BAA0894FAB9382386823BEBD /* Debug */,
+				428147D426BF13A33869158D67C0116D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

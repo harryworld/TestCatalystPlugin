@@ -11,5 +11,6 @@
 @protocol AppKit <NSObject>
 
 - (void)setup;
+- (void)viewSecondVC;
 
 @end

@@ -1,0 +1,6 @@
+framework module Pods_TestCatalyst {
+  umbrella header "Pods-TestCatalyst-umbrella.h"
+
+  export *
+  module * { export * }
+}

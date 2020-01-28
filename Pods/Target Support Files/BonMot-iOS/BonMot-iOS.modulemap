@@ -1,0 +1,6 @@
+framework module BonMot {
+  umbrella header "BonMot-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

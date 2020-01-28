@@ -1,0 +1,24 @@
+PODS:
+  - BonMot (5.4.1)
+  - DynamicColor (4.2.0)
+  - PinLayout (1.8.13)
+
+DEPENDENCIES:
+  - BonMot
+  - DynamicColor
+  - PinLayout
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - BonMot
+    - DynamicColor
+    - PinLayout
+
+SPEC CHECKSUMS:
+  BonMot: aa82119ff2ffa184223d8a31c72aed84fbb009e0
+  DynamicColor: c475f66bda1cabf602f2c54ac1171c0c07148a5a
+  PinLayout: e41a50260a76508b7a7fcee8955c76639adc69bc
+
+PODFILE CHECKSUM: 25d747ea717ffdd4c127466776d244bf0d52bd15
+
+COCOAPODS: 1.8.4
