@@ -1,24 +1,46 @@
 PODS:
   - BonMot (5.4.1)
   - DynamicColor (4.2.0)
+  - GRDB.swift (4.13.0):
+    - GRDB.swift/standard (= 4.13.0)
+  - GRDB.swift/standard (4.13.0)
   - PinLayout (1.8.13)
+  - RxGRDB (0.18.0):
+    - RxGRDB/default (= 0.18.0)
+    - RxSwift (~> 5.0)
+  - RxGRDB/default (0.18.0):
+    - GRDB.swift (~> 4.1)
+    - RxSwift (~> 5.0)
+  - RxSwift (5.1.1)
+  - SwiftDate (6.1.0)
 
 DEPENDENCIES:
   - BonMot
   - DynamicColor
+  - GRDB.swift
   - PinLayout
+  - RxGRDB
+  - SwiftDate
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - BonMot
     - DynamicColor
+    - GRDB.swift
     - PinLayout
+    - RxGRDB
+    - RxSwift
+    - SwiftDate
 
 SPEC CHECKSUMS:
   BonMot: aa82119ff2ffa184223d8a31c72aed84fbb009e0
   DynamicColor: c475f66bda1cabf602f2c54ac1171c0c07148a5a
+  GRDB.swift: c9cc798c8f12b354c2fbe04970c8e01bd188b72f
   PinLayout: e41a50260a76508b7a7fcee8955c76639adc69bc
+  RxGRDB: 41dfd8f987aad7a7bdd7c420319d3eb23ee383f3
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SwiftDate: fa2bb3962056bb44047b4b85a30044e5eae30b03
 
-PODFILE CHECKSUM: 25d747ea717ffdd4c127466776d244bf0d52bd15
+PODFILE CHECKSUM: 3bd4a904b0f1d027dacb00b04f436a762e68a08c
 
 COCOAPODS: 1.8.4

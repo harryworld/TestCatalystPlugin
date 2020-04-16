@@ -1,9 +1,9 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BonMot-iOS" "${PODS_CONFIGURATION_BUILD_DIR}/DynamicColor-iOS" "${PODS_CONFIGURATION_BUILD_DIR}/PinLayout-iOS"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BonMot-iOS" "${PODS_CONFIGURATION_BUILD_DIR}/DynamicColor-iOS" "${PODS_CONFIGURATION_BUILD_DIR}/GRDB.swift" "${PODS_CONFIGURATION_BUILD_DIR}/PinLayout-iOS" "${PODS_CONFIGURATION_BUILD_DIR}/RxGRDB" "${PODS_CONFIGURATION_BUILD_DIR}/RxSwift" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftDate"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BonMot-iOS/BonMot.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/DynamicColor-iOS/DynamicColor.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/PinLayout-iOS/PinLayout.framework/Headers"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BonMot-iOS/BonMot.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/DynamicColor-iOS/DynamicColor.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/GRDB.swift/GRDB.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/PinLayout-iOS/PinLayout.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/RxGRDB/RxGRDB.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/RxSwift/RxSwift.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftDate/SwiftDate.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -framework "BonMot" -framework "CoreGraphics" -framework "DynamicColor" -framework "Foundation" -framework "PinLayout" -framework "UIKit"
+OTHER_LDFLAGS = $(inherited) -l"sqlite3" -framework "BonMot" -framework "CoreGraphics" -framework "DynamicColor" -framework "Foundation" -framework "GRDB" -framework "PinLayout" -framework "RxGRDB" -framework "RxSwift" -framework "SwiftDate" -framework "UIKit"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

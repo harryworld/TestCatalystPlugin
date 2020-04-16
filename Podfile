@@ -9,6 +9,9 @@ target 'TestCatalyst' do
   pod 'BonMot'
   pod 'DynamicColor'
   pod 'PinLayout'
+  pod 'GRDB.swift'
+  pod 'RxGRDB'
+  pod 'SwiftDate'
 end
 
 target 'AppKitGlue' do

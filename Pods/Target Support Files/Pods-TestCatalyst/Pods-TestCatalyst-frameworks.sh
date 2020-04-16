@@ -163,12 +163,20 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/BonMot-iOS/BonMot.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DynamicColor-iOS/DynamicColor.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/GRDB.swift/GRDB.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PinLayout-iOS/PinLayout.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RxGRDB/RxGRDB.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/BonMot-iOS/BonMot.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DynamicColor-iOS/DynamicColor.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/GRDB.swift/GRDB.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PinLayout-iOS/PinLayout.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RxGRDB/RxGRDB.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

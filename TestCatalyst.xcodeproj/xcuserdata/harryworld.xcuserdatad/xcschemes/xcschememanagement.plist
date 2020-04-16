@@ -7,12 +7,12 @@
 		<key>AppKitGlue.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>12</integer>
 		</dict>
 		<key>TestCatalyst.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>13</integer>
 		</dict>
 	</dict>
 </dict>

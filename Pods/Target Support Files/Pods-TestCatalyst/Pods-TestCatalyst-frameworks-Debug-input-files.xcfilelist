@@ -1,4 +1,8 @@
 ${PODS_ROOT}/Target Support Files/Pods-TestCatalyst/Pods-TestCatalyst-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/BonMot-iOS/BonMot.framework
 ${BUILT_PRODUCTS_DIR}/DynamicColor-iOS/DynamicColor.framework
+${BUILT_PRODUCTS_DIR}/GRDB.swift/GRDB.framework
 ${BUILT_PRODUCTS_DIR}/PinLayout-iOS/PinLayout.framework
+${BUILT_PRODUCTS_DIR}/RxGRDB/RxGRDB.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework

@@ -47,7 +47,7 @@ class MacApp: NSObject, AppKit {
     func viewSecondVC() {
         // DynamicColor crashes by saying `Symbol not found` for NSColor
         let color = DynamicColor(hexString: "#263342")
-        let color = NSColor(hexString: "#263342")
+//        let color = NSColor(hexString: "#263342")
         
         // BonMot crashes with initializer
         let style = StringStyle()
